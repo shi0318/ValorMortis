@@ -1,0 +1,218 @@
+---
+// Homepage — immersive landing for the Valor Mortis Demo guide.
+import Layout from '../layouts/Layout.astro';
+import Countdown from '../components/Countdown.astro';
+import StatusBadge from '../components/StatusBadge.astro';
+import MediaFigure from '../components/MediaFigure.astro';
+import { isReleased } from '../data/site';
+import { ASSETS } from '../data/assets';
+import { OFFICIAL_FACTS } from '../data/official';
+
+const released = isReleased();
+
+const title = 'Valor Mortis Demo Guide — Walkthrough, Bosses, Weapons & Powers';
+const description =
+  'Hands-on Valor Mortis Demo guide: full walkthrough, boss strategy, the Rapier and pistol, resurrection and alchemical powers, plus PC settings and known issues. Every fact is tagged with how we verified it.';
+
+const startHere = [
+  {
+    href: '/demo/walkthrough/',
+    title: 'Demo Walkthrough',
+    desc: 'Step-by-step route through the Demo — key items, enemy setups, and how to clear it.',
+    cover: ASSETS.parisNightmare.src,
+  },
+  {
+    href: '/demo/boss-guide/',
+    title: 'Boss Guide',
+    desc: 'Attack patterns, punish windows, and the loadout that shuts the Demo boss down.',
+    cover: ASSETS.bossFight.src,
+  },
+  {
+    href: '/demo/weapons-and-abilities/',
+    title: 'Weapons & Powers',
+    desc: 'The Rapier, pistol, and supernatural alchemical powers — how they work and when to use them.',
+    cover: ASSETS.rapierCombat.src,
+  },
+  {
+    href: '/demo/settings-and-known-issues/',
+    title: 'Settings & Known Issues',
+    desc: 'Recommended PC settings, performance tips, and the current known-issue list.',
+    cover: ASSETS.catacombs.src,
+  },
+];
+
+const categories = [
+  {
+    href: '/demo/walkthrough/',
+    title: 'Walkthrough',
+    desc: 'Full Demo route with item locations and combat pointers.',
+  },
+  {
+    href: '/demo/boss-guide/',
+    title: 'Boss Guide',
+    desc: 'Phase-by-phase strategy for the Demo boss encounter.',
+  },
+  {
+    href: '/demo/weapons-and-abilities/',
+    title: 'Weapons & Powers',
+    desc: 'Rapier, pistol, parry, dodge, and alchemical resurrection powers.',
+  },
+  {
+    href: '/demo/settings-and-known-issues/',
+    title: 'Settings',
+    desc: 'PC requirements, graphics options, and known-issue tracking.',
+  },
+];
+---
+
+<Layout title={title} description={description} pageType="home" fullWidth>
+  <!-- Immersive hero -->
+  <section class="relative isolate overflow-hidden border-b border-white/10">
+    <div class="absolute inset-0">
+      <img
+        src={ASSETS.hero.src}
+        alt={ASSETS.hero.alt}
+        width={ASSETS.hero.width}
+        height={ASSETS.hero.height}
+        loading="eager"
+        decoding="sync"
+        fetchpriority="high"
+        class="h-full w-full object-cover object-center"
+      />
+      <div class="absolute inset-0 bg-gradient-to-b from-void/62 via-void/74 to-void"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-void/82 via-void/35 to-void/62"></div>
+    </div>
+
+    <div class="container relative flex min-h-[80vh] flex-col items-center justify-center py-24 text-center">
+      <p class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-black/35 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-bone backdrop-blur">
+        Fan Guide &amp; Source Tracker
+        <span class="text-smoke">·</span>
+        <span class="text-brass-bright">Demo playable now · full game Oct 13, 2026</span>
+      </p>
+
+      <h1 class="mt-6 max-w-4xl text-4xl font-black tracking-tight text-parchment sm:text-5xl md:text-6xl">
+        Valor Mortis Demo Guide
+      </h1>
+
+      <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-fog md:text-lg">
+        A first-person soulslike from the creators of Ghostrunner. Rise as a fallen soldier of
+        Napoleon's Grande Armée in a Paris twisted by dark magic. This guide is built on the
+        <strong class="text-bone">playable Demo</strong> — every fact is tagged with how we verified it.
+      </p>
+
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+        <a href="/demo/" class="btn-primary">Open the Demo guide →</a>
+        <a href="/demo/walkthrough/" class="btn-secondary">Walkthrough</a>
+        <a href="/demo/boss-guide/" class="btn-secondary">Boss guide</a>
+      </div>
+
+      {!released && <div class="mt-10"><Countdown /></div>}
+    </div>
+  </section>
+
+  <div class="container py-16">
+    <!-- Official facts band -->
+    <section class="surface p-6 md:p-8">
+      <p class="section-kicker">Confirmed by official sources</p>
+      <h2 class="section-title">What we know for certain</h2>
+      <p class="mt-3 max-w-3xl text-fog">
+        Straight from the Steam store pages for Valor Mortis (App 2828710) and its free Demo.
+        Everything else on the site is tagged as demo-tested, official, or community-corroborated.
+      </p>
+      <dl class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          OFFICIAL_FACTS.map((fact) => (
+            <div class="surface-muted p-4">
+              <dt class="text-xs font-bold uppercase tracking-[0.12em] text-brass-bright">{fact.label}</dt>
+              <dd class="mt-2 text-bone">{fact.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </section>
+
+    <!-- Trust -->
+    <section class="mt-14 surface p-6 md:p-8">
+      <p class="section-kicker">Why this guide</p>
+      <h2 class="section-title">Built on the playable Demo</h2>
+      <p class="mt-3 max-w-3xl text-fog">
+        Most pre-launch guides guess. This one doesn't have to — the Demo is out, so we test in
+        the build and label every fact by how we know it:
+      </p>
+      <div class="mt-5 flex flex-wrap gap-2">
+        <StatusBadge status="demo-tested" />
+        <StatusBadge status="official" />
+        <StatusBadge status="community" />
+        <StatusBadge status="unconfirmed" />
+      </div>
+    </section>
+
+    <!-- Start here -->
+    <section class="mt-16">
+      <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <p class="section-kicker">Essential pages</p>
+          <h2 class="section-title">Where to begin</h2>
+        </div>
+        <a href="/demo/" class="text-sm font-bold text-brass-bright hover:text-spectral">All Demo pages →</a>
+      </div>
+      <div class="grid gap-5 sm:grid-cols-2">
+        {
+          startHere.map((s) => (
+            <a href={s.href} class="surface group flex h-full overflow-hidden">
+              <div class="w-[38%] min-w-[7.5rem] overflow-hidden bg-void">
+                <img
+                  src={s.cover}
+                  alt={`${s.title} cover`}
+                  width="480"
+                  height="360"
+                  loading="lazy"
+                  decoding="async"
+                  class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+                />
+              </div>
+              <div class="flex flex-1 flex-col p-4 md:p-5">
+                <h3 class="text-base font-black text-parchment group-hover:text-brass-bright md:text-lg">{s.title}</h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-fog">{s.desc}</p>
+                <span class="mt-4 text-sm font-bold text-brass-bright">Open page →</span>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="mt-16">
+      <p class="section-kicker">Browse the guide</p>
+      <h2 class="section-title">Explore by topic</h2>
+      <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          categories.map((c) => (
+            <a href={c.href} class="surface group flex h-full flex-col p-5">
+              <span class="text-lg font-black text-parchment group-hover:text-brass-bright">{c.title}</span>
+              <span class="mt-2 flex-1 text-sm leading-relaxed text-fog">{c.desc}</span>
+              <span class="mt-4 text-sm font-bold text-brass-bright">Open →</span>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Visual archive -->
+    <section class="mt-16">
+      <p class="section-kicker">Visual archive</p>
+      <h2 class="section-title">Official screenshots</h2>
+      <p class="mt-3 max-w-3xl text-fog">
+        Screenshots from the official Valor Mortis Steam page. Every image is attributed so you
+        know exactly where it comes from.
+      </p>
+      <div class="mt-6 grid gap-4 md:grid-cols-2">
+        <MediaFigure {...ASSETS.rapierCombat} />
+        <MediaFigure {...ASSETS.spectralPower} />
+        <MediaFigure {...ASSETS.monsterEncounter} />
+        <MediaFigure {...ASSETS.decayingBoulevard} />
+      </div>
+    </section>
+  </div>
+</Layout>

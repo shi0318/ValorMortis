@@ -1,0 +1,30 @@
+---
+// Catch-all route — each markdown file in src/content/guides/ becomes a page.
+// URL equals the content file path: src/content/guides/walkthrough.md → /demo/walkthrough/ (id set in frontmatter path).
+import { getCollection, render } from 'astro:content';
+import GuideLayout from '../layouts/GuideLayout.astro';
+
+export async function getStaticPaths() {
+  const guides = await getCollection('guides', ({ data }) => !data.draft);
+  return guides.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+
+<GuideLayout
+  title={d.title}
+  heading={d.heading}
+  description={d.description}
+  category={d.category}
+  status={d.status}
+  sourceKeys={d.sourceKeys}
+  updatedAt={d.updatedAt}
+>
+  <Content />
+</GuideLayout>

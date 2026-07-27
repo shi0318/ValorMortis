@@ -1,0 +1,65 @@
+---
+// Sources & verification table — renders the source refs a page cites.
+import type { SourceRef, SourceStatus } from '../data/sources';
+
+interface Props {
+  sources: readonly SourceRef[];
+  title?: string;
+}
+
+const { sources, title = 'Sources & verification' } = Astro.props;
+
+const STATUS_LABEL: Record<SourceStatus, string> = {
+  official: 'Official',
+  platform: 'Platform',
+  'official-media': 'Official media',
+  demo: 'Demo build',
+};
+---
+
+{
+  sources.length > 0 && (
+    <section class="mt-10 surface-muted p-5" aria-label={title}>
+      <p class="section-kicker">{title}</p>
+      <h2 class="mt-2 text-xl font-black text-parchment">How we know this</h2>
+      <div class="mt-4 overflow-x-auto">
+        <table class="w-full min-w-[640px] border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-white/10 text-left text-fog">
+              <th class="py-2 pr-4 font-bold">Status</th>
+              <th class="py-2 pr-4 font-bold">Source</th>
+              <th class="py-2 pr-4 font-bold">Used for</th>
+              <th class="py-2 font-bold">Checked</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sources.map((s) => (
+              <tr class="border-b border-white/5 align-top">
+                <td class="py-2.5 pr-4">
+                  <span class="inline-flex items-center rounded border border-brass/40 bg-brass/15 px-2 py-0.5 text-xs font-bold whitespace-nowrap text-brass">
+                    {STATUS_LABEL[s.status]}
+                  </span>
+                </td>
+                <td class="py-2.5 pr-4">
+                  <a
+                    href={s.url}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                    class="font-bold text-brass-bright underline underline-offset-2 hover:text-spectral"
+                  >
+                    {s.label}
+                  </a>
+                  <span class="mt-0.5 block text-xs text-smoke">{s.publisher}</span>
+                </td>
+                <td class="py-2.5 pr-4 text-fog">{s.note}</td>
+                <td class="py-2.5 text-fog">
+                  <time datetime={s.lastChecked}>{s.lastChecked}</time>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}

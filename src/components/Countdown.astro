@@ -1,0 +1,44 @@
+---
+// Full-game countdown — Demo is playable now, full game lands 2026-10-13.
+import { SITE, daysUntilRelease, isReleased } from '../data/site';
+
+const days = daysUntilRelease();
+const released = isReleased();
+---
+
+{
+  released ? (
+    <div class="inline-flex items-center gap-2 rounded-2xl border border-spectral/30 bg-spectral/10 px-5 py-3 text-sm font-semibold text-spectral backdrop-blur-md">
+      <span class="h-2 w-2 rounded-full bg-spectral" />
+      Full game out now — verified guides live
+    </div>
+  ) : (
+    <div
+      class="inline-flex min-w-[11rem] flex-col items-center rounded-2xl border border-white/12 bg-black/45 px-5 py-4 text-center shadow-[0_12px_40px_rgba(0,0,0,0.4)] backdrop-blur-md"
+      data-countdown
+      data-release={SITE.releaseDate}
+    >
+      <span class="text-[0.65rem] font-bold uppercase tracking-[0.2em] text-fog">Full game in</span>
+      <span class="mt-1 text-4xl font-black tabular-nums tracking-tight text-brass-bright" data-countdown-value>
+        {days}
+      </span>
+      <span class="mt-1 text-xs text-fog">
+        days · <time datetime={SITE.releaseDate}>{SITE.releaseDate}</time>
+      </span>
+    </div>
+  )
+}
+
+<script>
+  const el = document.querySelector<HTMLElement>('[data-countdown]');
+  if (el) {
+    const release = new Date(el.dataset.release + 'T00:00:00Z').getTime();
+    const out = el.querySelector<HTMLElement>('[data-countdown-value]');
+    const tick = () => {
+      const diff = release - Date.now();
+      if (out) out.textContent = diff <= 0 ? '0' : String(Math.floor(diff / 86400000));
+    };
+    tick();
+    setInterval(tick, 60000);
+  }
+</script>

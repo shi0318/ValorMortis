@@ -1,0 +1,23 @@
+---
+// Demo-scope notice — this site documents the playable Demo build, not the full game.
+import { SITE } from '../data/site';
+
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+
+<aside
+  class:list={[
+    'rounded-xl border border-spectral/25 bg-spectral/[0.06] text-bone backdrop-blur-sm',
+    compact ? 'px-3 py-2 text-xs' : 'px-4 py-3 text-sm',
+  ]}
+  role="note"
+>
+  <p>
+    <span class="font-bold text-spectral">Demo guide.</span>
+    This page documents the free <strong>Valor Mortis Demo</strong> (on Steam since {SITE.demoReleaseDate}).
+    Facts are labelled by source; the full game launches {SITE.releaseDate} and may change these.
+  </p>
+</aside>

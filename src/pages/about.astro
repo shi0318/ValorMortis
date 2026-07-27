@@ -1,0 +1,80 @@
+---
+// About page — editorial + sourcing (AdSense trust surface).
+import Layout from '../layouts/Layout.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import { SITE } from '../data/site';
+import { STATUS_META } from '../data/confidence';
+
+const title = 'About — Valor Mortis Demo Guide';
+const description =
+  'Who runs this independent Valor Mortis Demo guide, how we tag every fact with a confidence status, and where our information comes from. Built on verified sources.';
+
+const crumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'About', url: '/about/' },
+];
+
+const statuses = Object.values(STATUS_META);
+---
+
+<Layout title={title} description={description} pageType="article" breadcrumbs={crumbs}>
+  <article class="container max-w-3xl py-10">
+    <Breadcrumb items={crumbs} />
+
+    <h1 class="text-3xl font-black tracking-tight text-parchment md:text-4xl">About this guide</h1>
+    <p class="mt-3 text-lg text-fog">
+      An independent, fan-made guide to the free {SITE.gameName} Demo — built on one rule: every
+      fact carries a source and a confidence status.
+    </p>
+
+    <div class="prose-page mt-8">
+      <h2>What this site is</h2>
+      <p>
+        This is a community resource covering the walkthrough, combat, weapons, powers, and PC
+        settings for {SITE.developer}'s {SITE.gameName} — starting with the free Demo. We are not
+        affiliated with {SITE.developer} or {SITE.publisher}. This is a fan project.
+      </p>
+
+      <h2>How we mark confidence</h2>
+      <p>
+        This is the core of the site. Instead of blending official facts with rumours, every
+        entry carries one of these labels so you always know how reliable it is:
+      </p>
+      <ul>
+        {
+          statuses.map((s) => (
+            <li>
+              <strong class="text-bone">{s.icon} {s.label}</strong> — {s.description}
+            </li>
+          ))
+        }
+      </ul>
+
+      <h2>Where our information comes from</h2>
+      <p>Our sources, in order of authority:</p>
+      <ul>
+        <li>The official <a href={SITE.steamUrl} rel="nofollow noopener noreferrer" target="_blank">Valor Mortis Steam page</a> (App {SITE.steamAppId}) — release date, platform, requirements, and the official description</li>
+        <li>The <a href={SITE.demoUrl} rel="nofollow noopener noreferrer" target="_blank">Valor Mortis Demo page</a> (App {SITE.demoAppId}) — the free playable build and its comfort features</li>
+        <li>{SITE.developer}, developer of Valor Mortis and Ghostrunner, and co-publisher {SITE.publisher}</li>
+        <li>Official screenshots and trailers, cited where relevant</li>
+        <li>Corroborated player reports, used only for clearly-labelled Community inference</li>
+      </ul>
+
+      <h2>Image sources</h2>
+      <p>
+        Screenshots and header art come from the {SITE.gameName} Steam store pages. We use them
+        for fan-site documentation with attribution. Trademarks and game assets belong to their
+        respective owners. To request removal of any content, use our
+        <a href="/contact/">contact page</a>.
+      </p>
+
+      <h2>Our promise on honesty</h2>
+      <p>
+        We do not dress up guesses as facts. Confirmed store details are tagged Official; things
+        we infer from the soulslike genre are labelled as inference; and anything we verify
+        hands-on in the Demo build is tagged Demo-tested with the build version noted. When the
+        full game launches on {SITE.releaseDate}, we add verified full-game data on its own pages.
+      </p>
+    </div>
+  </article>
+</Layout>
