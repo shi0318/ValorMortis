@@ -2,8 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
-// Final domain (plan首选 valormortis.wiki，注册后可替换)
-const SITE = 'https://valormortis.wiki';
+const SITE = 'https://valor-mortis.wiki';
 
 export default defineConfig({
   site: SITE,

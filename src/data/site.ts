@@ -2,7 +2,7 @@
 export const SITE = {
   name: 'Valor Mortis Demo Guide',
   shortName: 'VM Demo Guide',
-  url: 'https://valormortis.wiki',
+  url: 'https://valor-mortis.wiki',
   // Demo release (Steam Demo App 4641840) + full game release (App 2828710)
   demoReleaseDate: '2026-06-07',
   releaseDate: '2026-10-13',
