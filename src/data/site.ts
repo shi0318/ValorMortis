@@ -36,6 +36,8 @@ export const NAV = [
   { label: 'Boss Guide', href: '/demo/boss-guide/' },
   { label: 'Weapons & Powers', href: '/demo/weapons-and-abilities/' },
   { label: 'Settings', href: '/demo/settings-and-known-issues/' },
+  { label: 'Download', href: '/download/' },
+  { label: 'Release Date', href: '/release-date/' },
 ] as const;
 
 export function isReleased(now: Date = new Date()): boolean {
