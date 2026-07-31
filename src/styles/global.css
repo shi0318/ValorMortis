@@ -236,6 +236,19 @@ summary:focus-visible {
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.30);
 }
 
+.prose-page figure {
+  margin: 1.75rem 0;
+}
+
+.prose-page figure img {
+  margin-bottom: 0.5rem;
+}
+
+.prose-page figcaption {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
 .prose-page table {
   width: 100%;
   border-collapse: collapse;

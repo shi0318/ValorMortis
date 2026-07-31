@@ -8,7 +8,7 @@ import { toDateString } from './utils/dates';
 const confidenceStatus = z.enum(['demo-tested', 'official', 'community', 'unconfirmed']);
 
 // Source keys — must match keys in src/data/sources.ts
-const sourceKey = z.enum(['steam', 'steamDemo', 'steamMedia', 'oneMoreLevel']);
+const sourceKey = z.enum(['steam', 'steamDemo', 'steamMedia', 'oneMoreLevel', 'steamNews']);
 
 // YAML bare dates become Date objects; always normalize to YYYY-MM-DD strings.
 const dateString = z.preprocess(
