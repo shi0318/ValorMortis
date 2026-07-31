@@ -27,7 +27,7 @@ export const SITE = {
   // Studio pedigree (verified on Steam page)
   studioNote: 'from the creators of Ghostrunner',
   platforms: ['Steam (PC)'] as const,
-  lastVerified: '2026-07-27',
+  lastVerified: '2026-07-31',
 } as const;
 
 export const NAV = [
