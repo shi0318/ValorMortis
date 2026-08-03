@@ -1,7 +1,7 @@
 // 站点全局常量 —— 单一数据源，避免各页面硬编码不一致
 export const SITE = {
-  name: 'Valor Mortis Demo Guide',
-  shortName: 'VM Demo Guide',
+  name: 'Valor Mortis Guide',
+  shortName: 'VM Guide',
   url: 'https://valor-mortis.wiki',
   // Demo release (Steam Demo App 4641840) + full game release (App 2828710)
   demoReleaseDate: '2026-06-07',
