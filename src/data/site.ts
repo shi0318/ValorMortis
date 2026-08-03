@@ -6,7 +6,7 @@ export const SITE = {
   // Demo release (Steam Demo App 4641840) + full game release (App 2828710)
   demoReleaseDate: '2026-06-07',
   releaseDate: '2026-10-13',
-  tagline: 'Hands-on Demo Guides',
+  tagline: 'Source-Tracked Game Guides',
   description:
     'Independent Valor Mortis Demo guide with hands-on walkthrough, boss strategy, weapons, powers, and PC settings for One More Level’s first-person soulslike. Every fact is sourced.',
   locale: 'en',
