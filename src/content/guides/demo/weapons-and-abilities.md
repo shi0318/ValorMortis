@@ -44,4 +44,4 @@ This section is **practical inference** from the confirmed mechanics and the sou
 
 Exact damage values, upgrade trees, power cooldowns, and which of these are unlocked inside the Demo slice all require hands-on verification. When corroborated, that data will be added and tagged **Demo-tested** or **Community** — never dressed up as official.
 
-For how these tools fit into the Demo's flow, see the [Demo walkthrough](/demo/walkthrough/). For the tougher fights, see the [boss guide](/demo/boss-guide/). For who you are pointing all of it at — the Eternal Guard, The Relentless, and the Nephtoglobin weapon fiction — see [enemies and factions](/enemies-and-factions/).
+For how these tools fit into the Demo's flow, see the [Demo walkthrough](/demo/walkthrough/). For the tougher fights, see the [boss guide](/demo/boss-guide/). For who you are pointing all of it at — the Eternal Guard, The Relentless, and the Nephtoglobin weapon fiction — see [enemies and factions](/enemies-and-factions/). For the Musket, the Shield Transmutation and the grapple, wall run and swing kit the developer has described, see [traversal and cast](/traversal-and-cast/).
