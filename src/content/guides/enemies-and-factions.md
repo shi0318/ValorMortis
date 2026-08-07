@@ -58,16 +58,16 @@ So Nephtoglobin is the setting's enabling substance — the thing that lets a 19
 
 For what you can actually wield against these enemies, see the [weapons and abilities page](/demo/weapons-and-abilities/).
 
-## What changed to make enemies readable
+## What the developer said it was changing for readability
 
-Before the demo, One More Level published a developer update addressing the **three most common combat complaints** from the earlier playtest. Two of the three are directly about fighting these enemies:
+After the playtest, One More Level published a developer update addressing the **three most common combat complaints**. Two of the three are directly about fighting these enemies. The post describes planned work, so this should not be read as proof that every change is already in a particular Demo build:
 
 1. **Combat readability** — stronger **attack windups**, stronger **pre-attack audio cues**, and a clearer visual and audio distinction **between blocks and parries**.
 2. **Target lock and camera** — smoother, more reliable tracking, **smarter target prioritisation**, and **extended range** covering both melee and ranged combat, after players flagged it as inconsistent in multi-enemy fights and in the boss fight.
 
 (The third was keyboard bindings — blocking on CTRL and using ALT were called uncomfortable, and rebinding was highlighted as the fix.)
 
-If you have played the demo, this is why enemy telegraphs feel deliberate: they were rebuilt on purpose. Our [demo boss guide](/demo/boss-guide/) covers the one fight where that tuning is most obvious.
+For the developer's exact stated scope and a build-aware report checklist, see [Combat Feedback Update](/demo/combat-feedback-improvements/). Our [demo boss guide](/demo/boss-guide/) covers the one fight where defensive timing matters most.
 
 ## The world they live in
 
