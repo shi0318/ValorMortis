@@ -37,7 +37,7 @@ const path = Astro.url.pathname;
 const isErrorPage = path.includes('404');
 const canonicalUrl = isErrorPage || noindex ? undefined : (canonical ?? new URL(path, SITE.url).href);
 const imageUrl = new URL(image, SITE.url).href;
-const GA_ID = import.meta.env.PUBLIC_GA4_ID;
+const GA_ID = 'G-STS9CDRXE6';
 
 const organization = {
   '@type': 'Organization',
