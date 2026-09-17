@@ -22,6 +22,7 @@ interface Props {
   status: ConfidenceStatus;
   sourceKeys?: SourceKey[];
   demoNotice?: boolean;
+  image?: string;
   updatedAt: string;
 }
 
@@ -32,6 +33,7 @@ const {
   status,
   sourceKeys = [],
   demoNotice = true,
+  image,
   updatedAt,
 } = Astro.props;
 
@@ -71,6 +73,7 @@ const sources: SourceRef[] = sourceKeys.map((k) => SOURCES[k]);
   pageType="article"
   breadcrumbs={crumbs}
   noindex={noindex}
+  image={image}
 >
   <article class="container max-w-3xl py-10">
     <Breadcrumb items={crumbs} />

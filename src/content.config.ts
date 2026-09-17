@@ -25,6 +25,7 @@ const guides = defineCollection({
     category: z.enum(['guide', 'walkthrough', 'boss', 'weapons', 'skills', 'settings', 'secrets', 'news']),
     status: confidenceStatus,
     sourceKeys: z.array(sourceKey).default([]),
+    demoNotice: z.boolean().default(true),
     // Demo build version this page was tested against (e.g. "Demo v1.03")
     demoVersion: z.string().optional(),
     preRelease: z.boolean().default(true),
