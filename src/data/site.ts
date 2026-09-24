@@ -35,6 +35,7 @@ export const NAV = [
   { label: 'Walkthrough', href: '/demo/walkthrough/' },
   { label: 'Boss Guide', href: '/demo/boss-guide/' },
   { label: 'Weapons & Powers', href: '/demo/weapons-and-abilities/' },
+  { label: 'Characters & Lore', href: '/characters-and-lore/' },
   { label: 'Settings', href: '/demo/settings-and-known-issues/' },
   { label: 'Download', href: '/download/' },
   { label: 'Release Date', href: '/release-date/' },

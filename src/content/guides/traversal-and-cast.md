@@ -71,7 +71,7 @@ Two details the developer volunteered from the recording sessions:
 - Cassel was an avid gamer in his youth, naming ***SSX Tricky*** and ***Kelly Slater Pro Surfer***.
 - He is from the **Corsica** region on his mother's side — Napoleon's birthplace — and told the team his auntie would describe Napoleon as "a cousin of the family."
 
-Napoleon's voice is confirmed to be audible **in the Demo** as well as the full game. No other cast member has been announced, and William's performer has not been named.
+Napoleon's voice is confirmed to be audible **in the Demo** as well as the full game. No other cast member has been announced, and William's performer has not been named. For the wider cast and the plague lore, see the [characters & lore page](/characters-and-lore/).
 
 <figure>
   <img src="/images/vm-catacombs.webp" alt="The bone-lined catacombs beneath 19th-century Paris in Valor Mortis" width="1920" height="1080" loading="lazy" decoding="async" />
