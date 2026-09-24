@@ -16,7 +16,7 @@ This page maps out what the free **Valor Mortis Demo** (Steam App 4641840, relea
 
 ## The setting you drop into
 
-Per the official description, you play **a fallen soldier of Napoleon's Grande Armée**, resurrected into a **Paris twisted by dark magic**. The City of Light has become a nightmarish labyrinth: the dead walk, monsters prowl, and the streets run with blood and rain. The Demo is your first taste of that world — expect the opening stretch of this interconnected, 19th-century Paris.
+Per the official description, you play **a fallen soldier of Napoleon's Grande Armée**, resurrected into a **19th-century Eastern Europe twisted by dark magic**. Napoleon's stalled eastern campaign has become a nightmarish labyrinth: the dead walk, monsters prowl, and the streets run with blood and rain. The Demo is your first taste of that world — expect the opening stretch of this interconnected, plague-warped Europe.
 
 ## The core loop
 

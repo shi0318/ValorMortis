@@ -23,7 +23,7 @@ export const SITE = {
   officialSite: 'https://valormortis.game/',
   // Setting / premise (verified from Steam description)
   protagonist: "a fallen soldier of Napoleon's Grande Armée",
-  setting: 'a Paris twisted by dark magic',
+  setting: 'a 19th-century Eastern Europe twisted by dark magic',
   // Studio pedigree (verified on Steam page)
   studioNote: 'from the creators of Ghostrunner',
   platforms: ['Steam (PC)'] as const,

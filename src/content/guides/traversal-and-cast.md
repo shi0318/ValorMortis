@@ -74,8 +74,8 @@ Two details the developer volunteered from the recording sessions:
 Napoleon's voice is confirmed to be audible **in the Demo** as well as the full game. No other cast member has been announced, and William's performer has not been named. For the wider cast and the plague lore, see the [characters & lore page](/characters-and-lore/).
 
 <figure>
-  <img src="/images/vm-catacombs.webp" alt="The bone-lined catacombs beneath 19th-century Paris in Valor Mortis" width="1920" height="1080" loading="lazy" decoding="async" />
-  <figcaption>Official screenshot | Valor Mortis (Steam) — the interconnected 19th-century Paris the traversal kit is built for. One More Level / Lyrical Games.</figcaption>
+  <img src="/images/vm-catacombs.webp" alt="The bone-lined catacombs beneath a plague-warped 19th-century Europe in Valor Mortis" width="1920" height="1080" loading="lazy" decoding="async" />
+  <figcaption>Official screenshot | Valor Mortis (Steam) — the interconnected, plague-warped 19th-century Europe the traversal kit is built for. One More Level / Lyrical Games.</figcaption>
 </figure>
 
 ## What the developer changed after feedback

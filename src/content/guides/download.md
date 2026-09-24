@@ -66,7 +66,7 @@ Full tuning notes, comfort options, and the problems people hit on first launch 
 
 From the official Steam listing, the Demo build includes:
 
-- The opening stretch of a **Paris twisted by dark magic**, playing a fallen soldier of Napoleon's Grande Armée
+- The opening stretch of a **19th-century Eastern Europe twisted by dark magic**, playing a fallen soldier of Napoleon's Grande Armée
 - **First-person soulslike combat** blending a rapier with pistol gunplay
 - **Resurrection used as a tactical advantage** rather than only a fail state
 - **Save Anytime**, so you can stop mid-session without losing progress

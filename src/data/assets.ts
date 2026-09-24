@@ -15,14 +15,14 @@ const STEAM_CREDIT = 'Steam store screenshot | Valor Mortis';
 export const ASSETS = {
   hero: {
     src: '/images/vm-hero-banner.webp',
-    alt: 'A resurrected soldier facing a nightmarish, dark-magic Paris in Valor Mortis',
+    alt: 'A resurrected soldier facing a nightmarish, dark-magic Eastern Europe in Valor Mortis',
     width: 1920,
     height: 1080,
     credit: STEAM_CREDIT,
   },
   parisNightmare: {
     src: '/images/vm-paris-nightmare.webp',
-    alt: 'The blood-slick, rain-soaked streets of a Paris twisted by dark magic in Valor Mortis',
+    alt: 'The blood-slick, rain-soaked streets of an Eastern Europe twisted by dark magic in Valor Mortis',
     width: 1920,
     height: 1080,
     credit: STEAM_CREDIT,
@@ -43,7 +43,7 @@ export const ASSETS = {
   },
   catacombs: {
     src: '/images/vm-catacombs.webp',
-    alt: 'The bone-lined catacombs beneath 19th-century Paris in Valor Mortis',
+    alt: 'The bone-lined catacombs beneath a plague-warped 19th-century Europe in Valor Mortis',
     width: 1920,
     height: 1080,
     credit: STEAM_CREDIT,
@@ -64,14 +64,14 @@ export const ASSETS = {
   },
   bossFight: {
     src: '/images/vm-boss-fight.webp',
-    alt: 'A large boss encounter in the decaying grandeur of Paris in Valor Mortis',
+    alt: 'A large boss encounter in the decaying grandeur of war-torn Eastern Europe in Valor Mortis',
     width: 1920,
     height: 1080,
     credit: STEAM_CREDIT,
   },
   decayingBoulevard: {
     src: '/images/vm-decaying-boulevard.webp',
-    alt: 'A grand, decaying boulevard of the City of Light turned nightmare in Valor Mortis',
+    alt: 'A grand, decaying boulevard of a war-torn Eastern European city turned nightmare in Valor Mortis',
     width: 1920,
     height: 1080,
     credit: STEAM_CREDIT,

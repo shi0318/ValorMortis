@@ -14,7 +14,7 @@ updatedAt: "2026-08-14"
 One More Level published **“Responding to the biggest feedback from the Demo”** on **August 9, 2026**. This page separates what players liked, what the team says it plans to improve, and what has **not** been confirmed as already fixed. It was checked on **August 14, 2026**.
 
 <figure>
-  <img src="/images/vm-decaying-boulevard.webp" alt="Valor Mortis Demo view of a decaying boulevard in Paris" width="1920" height="1080" loading="lazy" decoding="async" />
+  <img src="/images/vm-decaying-boulevard.webp" alt="Valor Mortis Demo view of a decaying, war-torn boulevard" width="1920" height="1080" loading="lazy" decoding="async" />
   <figcaption>Official Valor Mortis Demo artwork used for the feedback update guide.</figcaption>
 </figure>
 

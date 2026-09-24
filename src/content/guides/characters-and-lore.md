@@ -94,7 +94,7 @@ Boss names, phases, and health values are **not first-party confirmed**. For how
 - **Alternate Napoleonic Europe.** Rather than a historical end at Waterloo, Napoleon's campaign drives deep into Eastern Europe — until an apocalyptic anomaly turns conquest into survival horror.
 - **Nephtoglobin.** The volatile substance at the heart of the game's supernatural ecosystem: a mutagenic plague catalyst, a source of dark alchemy, and the biological fuel behind resurrection. The studio has confirmed the name but **not** explained what it is.
 - **The Crimson Plague & resurrection.** Death is an infection. Fallen soldiers rise as mutated "Risen" — but anomalies like William keep their mind and free will while harnessing the corruption. Why he was chosen, and by whom, is the core mystery.
-- **Paris & the occupied zones.** The historical "City of Light" appears as a gothic, war-torn location, with underground rebel movements and the child spy rings of the Mice.
+- **The occupied zones.** War-torn Eastern European territories under imperial occupation give rise to underground rebel movements and the child spy rings of the Mice.
 
 <figure>
   <img src="/images/vm-catacombs.webp" alt="The bone-lined catacombs beneath a plague-warped 19th-century city in Valor Mortis" width="1920" height="1080" loading="lazy" decoding="async" />

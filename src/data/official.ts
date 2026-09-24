@@ -49,7 +49,7 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   },
   {
     label: 'Setting',
-    value: "19th-century Paris twisted by dark magic — the City of Light as a nightmarish labyrinth",
+    value: "19th-century Eastern Europe twisted by dark magic — Napoleon's stalled eastern campaign as a nightmarish labyrinth",
     sourceLabel: 'Steam description',
     sourceUrl: SITE.steamUrl,
   },
@@ -73,7 +73,7 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   },
   {
     label: 'Structure',
-    value: 'Interconnected metroidvania — unlock powers to reach new areas and backtrack through Paris',
+    value: 'Interconnected metroidvania — unlock powers to reach new areas and backtrack through its world',
     sourceLabel: 'Steam description',
     sourceUrl: SITE.steamUrl,
   },

@@ -21,7 +21,7 @@ This **Valor Mortis gameplay preview** uses the official Steam product pages and
 
 ## What Valor Mortis is built around
 
-The official store description presents a first-person action soulslike set in a Napoleon-era world distorted by dark magic. The player is a fallen soldier of Napoleon's Grande Armée, resurrected into a twisted Paris. The listed gameplay pillars include melee, firearms, parkour-style mobility, and resurrection.
+The official store description presents a first-person action soulslike set in a Napoleon-era world distorted by dark magic. The player is a fallen soldier of Napoleon's Grande Armée, resurrected into a twisted, alternate-history Eastern Europe. The listed gameplay pillars include melee, firearms, parkour-style mobility, and resurrection.
 
 Those pillars make a practical Demo test possible: learn the parry rhythm, compare close-range and firearm options, understand how movement changes an encounter, and observe what resurrection does in the tested build. The description does not publish a complete damage formula, final boss list, full map, or retail progression table.
 

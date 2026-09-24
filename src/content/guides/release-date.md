@@ -38,7 +38,7 @@ Everything on this site that is marked **demo-tested** comes from that build. Ev
 
 ## What the full game is
 
-You play **a fallen soldier of Napoleon's Grande Armée**, resurrected into **a Paris twisted by dark magic** — a first-person action soulslike where melee and gunplay are fused, and where resurrection is a tactical tool rather than only a fail state. See the [Demo guide hub](/demo/) for how that plays in practice and [weapons & abilities](/demo/weapons-and-abilities/) for the combat kit.
+You play **a fallen soldier of Napoleon's Grande Armée**, resurrected into **a 19th-century Eastern Europe twisted by dark magic** — a first-person action soulslike where melee and gunplay are fused, and where resurrection is a tactical tool rather than only a fail state. See the [Demo guide hub](/demo/) for how that plays in practice and [weapons & abilities](/demo/weapons-and-abilities/) for the combat kit.
 
 ## What is still unannounced
 
