@@ -40,7 +40,7 @@ const FALLBACK_COVER: Record<string, string> = {
   news: ASSETS.hero.src,
 };
 
-const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort(
+const guides = (await getCollection('guides', ({ data }) => !data.draft && data.preRelease !== false)).sort(
   (a, b) => b.data.updatedAt.localeCompare(a.data.updatedAt) || a.id.localeCompare(b.id),
 );
 const PAGE_SIZE = 9;

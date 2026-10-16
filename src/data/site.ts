@@ -8,7 +8,7 @@ export const SITE = {
   releaseDate: '2026-10-13',
   tagline: 'Source-Tracked Game Guides',
   description:
-    'Independent Valor Mortis Demo guide with hands-on walkthrough, boss strategy, weapons, powers, and PC settings for One More Level’s first-person soulslike. Every fact is sourced.',
+    'Independent Valor Mortis guide with retail walkthroughs, boss strategy, weapons, skills, achievements, and a clearly separated Demo archive for One More Level’s first-person soulslike.',
   locale: 'en',
   // Full game name used in schema / VideoGame entity
   gameName: 'Valor Mortis',
@@ -20,17 +20,18 @@ export const SITE = {
   steamUrl: 'https://store.steampowered.com/app/2828710/Valor_Mortis/',
   demoAppId: '4641840',
   demoUrl: 'https://store.steampowered.com/app/4641840/Valor_Mortis_Demo/',
-  officialSite: 'https://valormortis.game/',
+  officialSite: 'https://valormortis.com',
   // Setting / premise (verified from Steam description)
   protagonist: "a fallen soldier of Napoleon's Grande Armée",
   setting: 'a 19th-century Eastern Europe twisted by dark magic',
   // Studio pedigree (verified on Steam page)
   studioNote: 'from the creators of Ghostrunner',
   platforms: ['Steam (PC)'] as const,
-  lastVerified: '2026-07-31',
+  lastVerified: '2026-10-15',
 } as const;
 
 export const NAV = [
+  { label: 'Full-Game Guides', href: '/guides/' },
   { label: 'Demo Guide', href: '/demo/' },
   { label: 'Walkthrough', href: '/demo/walkthrough/' },
   { label: 'Boss Guide', href: '/demo/boss-guide/' },

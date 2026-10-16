@@ -16,7 +16,7 @@ const FALLBACK_COVER: Record<string, string> = { guide: ASSETS.parisNightmare.sr
 
 export async function getStaticPaths() {
   const PAGE_SIZE = 9;
-  const guides = (await getCollection('guides', ({ data }) => !data.draft)).sort((a, b) => b.data.updatedAt.localeCompare(a.data.updatedAt) || a.id.localeCompare(b.id));
+  const guides = (await getCollection('guides', ({ data }) => !data.draft && data.preRelease !== false)).sort((a, b) => b.data.updatedAt.localeCompare(a.data.updatedAt) || a.id.localeCompare(b.id));
   const totalPages = Math.ceil(guides.length / PAGE_SIZE);
   return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => { const page = i + 2; return { params: { page: String(page) }, props: { guides, page, totalPages } }; });
 }

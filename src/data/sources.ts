@@ -11,7 +11,7 @@ export interface SourceRef {
   note: string;
 }
 
-export const LAST_CHECKED = '2026-08-17';
+export const LAST_CHECKED = '2026-10-15';
 
 export const SOURCES = {
   steam: {
@@ -51,7 +51,7 @@ export const SOURCES = {
     url: 'https://store.steampowered.com/news/app/2828710',
     publisher: 'One More Level / Lyrical Games',
     status: 'official',
-    lastChecked: '2026-08-07',
+    lastChecked: '2026-10-15',
     note: 'First-party developer updates posted to the Steam news hub for App 2828710, including "Emerging from Winter" (2026-03-27) on The Relentless, Nephtoglobin-era weapon concepts and UE5 tooling, and "3 things we are working on to improve combat" (2025-12-21).',
   },
 } satisfies Record<string, SourceRef>;

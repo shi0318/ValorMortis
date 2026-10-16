@@ -1,5 +1,5 @@
 // Official confirmed facts only — pulled from the Steam store pages for
-// Valor Mortis (App 2828710) and Valor Mortis Demo (App 4641840), checked 2026-07-27,
+// Valor Mortis (App 2828710) and Valor Mortis Demo (App 4641840), checked 2026-10-15,
 // plus the developer/publisher listings. Used on the homepage trust surfaces.
 import { SITE } from './site';
 
@@ -31,7 +31,7 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   },
   {
     label: 'Full release',
-    value: 'October 13, 2026 (coming soon on Steam)',
+    value: 'Released October 13, 2026 on Steam',
     sourceLabel: 'Steam',
     sourceUrl: SITE.steamUrl,
   },
@@ -92,22 +92,22 @@ export const STEAM_TAGS = [
 
 // Minimum PC requirements (verified from the Steam store page)
 export const PC_MIN = {
-  os: 'Windows 10 64-bit',
-  cpu: 'Intel Core i5-8400 / AMD Ryzen 5 2600',
+  os: 'Windows 10/11 64-bit',
+  cpu: 'Intel Core i5-10600K / AMD Ryzen 5 3600',
   ram: '16 GB RAM',
-  gpu: 'NVIDIA GeForce GTX 1070 / AMD Radeon RX 5600 XT',
+  gpu: 'NVIDIA GeForce GTX 1660 Ti / AMD Radeon RX 5600 XT',
   directx: 'Version 12',
-  storage: '50 GB available space',
+  storage: '60 GB available space (SSD required)',
 } as const;
 
 // Recommended PC requirements (verified from the Steam store page)
 export const PC_REC = {
   os: 'Windows 10/11 64-bit',
-  cpu: 'Intel Core i7-10700 / AMD Ryzen 7 3700X',
+  cpu: 'Intel Core i5-13400 / AMD Ryzen 7 5800X',
   ram: '16 GB RAM',
-  gpu: 'NVIDIA GeForce RTX 2070 / AMD Radeon RX 6700 XT',
+  gpu: 'NVIDIA GeForce RTX 3070 / AMD Radeon RX 6800',
   directx: 'Version 12',
-  storage: '50 GB available space',
+  storage: '60 GB available space (SSD required)',
 } as const;
 
 // Store features (Steam categories)
