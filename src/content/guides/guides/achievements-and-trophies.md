@@ -68,7 +68,7 @@ These sixteen achievements reveal bosses, allies, and side quests. Keep this sec
 | **True Oath** | Defeat Justicar Aurelius in Chapter 7. |
 | **Lament of The Limbs** | Defeat Experiment 83 in Chapter 7. |
 | **Birdwatcher** | Have a rendezvous with the Shrike. |
-| **Coup de Grâce** | Defeat the Orphan in Chapter 8. |
+| **Coup de Grâce** | Defeat the Orphan in Chapter 9. |
 | **Behemoth** | Defeat Nephtis Superioris. |
 | **In His Own Image** | Defeat the Entity. |
 | **The Bitter Cure** | Complete the Laudanum quest, which begins in Chapter 7’s Outskirts. |
