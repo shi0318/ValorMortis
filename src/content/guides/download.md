@@ -24,7 +24,7 @@ If you searched "Valor Mortis download" or "Valor Mortis demo free", that Steam 
 | Steam app id | 4641840 |
 | Demo released | June 7, 2026 |
 | Platform | PC (Windows, Steam) |
-| Full game | Valor Mortis, app id 2828710 — releases October 13, 2026 |
+| Full game | Valor Mortis, app id 2828710 — released October 13, 2026 |
 | Developer | One More Level (creators of Ghostrunner) |
 | Publisher | Lyrical Games / One More Level |
 
@@ -32,7 +32,7 @@ Steam may ask you to sign in or confirm your age before installing. That is norm
 
 ## Why this page exists
 
-"Download" searches for an unreleased game are exactly where players end up on scam pages, repacks, and fake installers. This page exists to do three things and nothing else:
+Download searches are where players end up on scam pages, repacks, and fake installers. The full game is out. This page still only does three things:
 
 1. Point at the **official** Steam app, by id, so you can verify it yourself
 2. State the **PC requirements before you install**, so you don't burn 50 GB finding out
