@@ -9,7 +9,7 @@ demoNotice: false
 preRelease: false
 order: 8
 cover: "/images/vm-pistol-duel.webp"
-updatedAt: "2026-10-21"
+updatedAt: "2026-10-23"
 ---
 
 <figure>

@@ -9,7 +9,7 @@ demoNotice: false
 preRelease: false
 order: 4
 cover: "/images/vm-boss-fight.webp"
-updatedAt: "2026-10-20"
+updatedAt: "2026-10-23"
 ---
 
 <figure>

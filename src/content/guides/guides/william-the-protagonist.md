@@ -9,7 +9,7 @@ demoNotice: false
 preRelease: false
 order: 7
 cover: "/images/vm-rapier-combat.webp"
-updatedAt: "2026-10-21"
+updatedAt: "2026-10-23"
 ---
 
 <figure>
