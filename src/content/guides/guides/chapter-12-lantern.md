@@ -1,7 +1,7 @@
 ---
 title: "Confirm the Chapter 12 Lantern"
 heading: "Watch the cutscene, then look for the next lantern"
-description: "The October 16 Valor Mortis update fixed Chapter 12 cases where a cutscene did not unlock the next lantern. On October 25 the game was $39.99 and Very Positive."
+description: "The October 16 Valor Mortis update fixed Chapter 12 cases where a cutscene did not unlock the next lantern. On October 26 the game was $39.99 and Very Positive."
 category: walkthrough
 status: official
 sourceKeys: []
@@ -9,7 +9,7 @@ demoNotice: false
 preRelease: false
 order: 5
 cover: "/images/vm-catacombs.webp"
-updatedAt: "2026-10-25"
+updatedAt: "2026-10-26"
 ---
 
 <figure>
@@ -18,7 +18,7 @@ updatedAt: "2026-10-25"
 
 The October 16 update resolved a progression blocker on Chapter 12 and fixed edge cases where cutscenes might not trigger or might not unlock the next lantern. The habit is the same as Chapter 4: watch the scene, then confirm the lantern exists before you quit. Chapter 12 is not Chapter 4. Do not reload the wrong door.
 
-On **October 25, 2026** the US Steam page listed Valor Mortis at **$39.99**, Very Positive, **1,089** English reviews. This check did not show a 30-day split, so none is quoted. Twelve days after the October 13 launch, that English line is a fast Very Positive start. It does not unlock a lantern the cutscene failed to flag on an unpatched install.
+On **October 26, 2026** the US Steam page listed Valor Mortis at **$39.99**, Very Positive, **1,089** English reviews. This check did not show a 30-day split, so none is quoted. Thirteen days after the October 13 launch, that English line is a fast Very Positive start. It does not unlock a lantern the cutscene failed to flag on an unpatched install.
 
 ## The check
 
@@ -38,37 +38,37 @@ Parry one enemy on the far side so you know the save was a save and not a menu g
 
 **$39.99** on this check is the sticker. **1,089** Very Positive English reviews are the crowd. **39** achievements will not pop because you quit early. Confirm the light. Then leave the desk. The scene you watched is the one the patch taught the game to keep.
 
-October 25 was $39.99, Very Positive, 1,089 English reviews, no 30-day split in this check. Chapter 12's cutscene should unlock the next lantern on the October 16 build. Watch it. Confirm the light. Do not quit mid-scene. Do not delete Saved. Chapter 4 is a different door. Chapter 5's quest is a different flag. Volunteers fighting back is a different fix. The rapier still makes the window. 60 GB on an SSD. A driver popup is the next menu if the street hitches, not another chapter select. 39 achievements do not pop because you quit early. $39.99 is the sticker. The lantern is the proof.
+October 26 was $39.99, Very Positive, 1,089 English reviews, no 30-day split in this check. Chapter 12's cutscene should unlock the next lantern on the October 16 build. Watch it. Confirm the light. Do not quit mid-scene. Do not delete Saved. Chapter 4 is a different door. Chapter 5's quest is a different flag. Volunteers fighting back is a different fix. The rapier still makes the window. 60 GB on an SSD. A driver popup is the next menu if the street hitches, not another chapter select. 39 achievements do not pop because you quit early. $39.99 is the sticker. The lantern is the proof.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.

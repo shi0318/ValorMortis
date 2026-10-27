@@ -1,7 +1,7 @@
 ---
 title: "One Street After the Driver Popup"
 heading: "Update the driver. Walk one street. Then parry."
-description: "Valor Mortis added a GPU driver popup on October 16. On October 25 the game was $39.99 and Very Positive. One street is the test, not a folder wipe."
+description: "Valor Mortis added a GPU driver popup on October 16. On October 26 the game was $39.99 and Very Positive. One street is the test, not a folder wipe."
 category: settings
 status: official
 sourceKeys: []
@@ -9,7 +9,7 @@ demoNotice: false
 preRelease: false
 order: 7
 cover: "/images/vm-decaying-boulevard.webp"
-updatedAt: "2026-10-25"
+updatedAt: "2026-10-26"
 ---
 
 <figure>
@@ -18,7 +18,7 @@ updatedAt: "2026-10-25"
 
 The October 16 update added a popup when the GPU driver is old. The notes said outdated drivers were one of the largest stability gaps in the first days. Update that driver. Walk one street. Parry one enemy. That is the test. Deleting folders is not the test.
 
-On **October 25, 2026** the US page was **$39.99**, Very Positive, **1,089** English reviews. No 30-day split in this check. Twelve days after launch, a Very Positive English count does not mean your driver is current. The popup is how the game tells you.
+On **October 26, 2026** the US page was **$39.99**, Very Positive, **1,089** English reviews. No 30-day split in this check. Thirteen days after launch, a Very Positive English count does not mean your driver is current. The popup is how the game tells you.
 
 ## The order
 
@@ -36,40 +36,40 @@ It proves the driver and the frame, not the whole game. Volunteers should fight 
 
 One street. One parry. Then the chapter you were actually playing. The store page will not walk the boulevard. The driver might let you see it.
 
-Update the driver the October 16 popup names. Walk one street. Parry one rapier swing. October 25 was $39.99, Very Positive, 1,089 English reviews. That label does not mean your driver is current. Delete GameUserSettings.ini only after the driver update, only if you came from the demo, and never the save folder. 60 GB SSD. A 1660 Ti is the minimum class, not a 4K clip. Volunteers should fight after a backstab on this patch. In the Name of Art is a later test. 39 achievements survive a driver update. One visible swing is the proof. Then return to the chapter you were playing.
+Update the driver the October 16 popup names. Walk one street. Parry one rapier swing. October 26 was $39.99, Very Positive, 1,089 English reviews. That label does not mean your driver is current. Delete GameUserSettings.ini only after the driver update, only if you came from the demo, and never the save folder. 60 GB SSD. A 1660 Ti is the minimum class, not a 4K clip. Volunteers should fight after a backstab on this patch. In the Name of Art is a later test. 39 achievements survive a driver update. One visible swing is the proof. Then return to the chapter you were playing.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
 
 
-October 25, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
+October 26, 2026 is the check date for the US Steam sticker and English count in this page. Do not blend it with another filter. Update if you own the game. Do the one test named above. Then stop.
