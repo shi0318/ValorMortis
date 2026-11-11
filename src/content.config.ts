@@ -32,6 +32,7 @@ const guides = defineCollection({
     order: z.number().default(100),
     draft: z.boolean().default(false),
     cover: z.string().optional(),
+    faqs: z.array(z.object({ question: z.string(), answer: z.string() })).default([]),
     updatedAt: dateString,
   }),
 });

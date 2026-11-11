@@ -1,104 +1,83 @@
 ---
-title: "Valor Mortis Demo Download — Free on Steam (App 4641840)"
-heading: "Download the Valor Mortis Demo"
-description: "How to download the free Valor Mortis Demo on Steam: the official app link, PC requirements, install checklist, and what the Demo build includes."
-category: "guide"
-status: "official"
+title: "Valor Mortis Download: Full Game, PC Requirements and Demo Archive"
+heading: "Download Valor Mortis: full game or archived Demo?"
+description: "Install the released Valor Mortis full game from the correct store. Check current PC requirements, 60 GB SSD storage, and the separate old Demo."
+category: guide
+status: official
 order: 2
-updatedAt: "2026-07-30"
-sourceKeys: ["steam", "steamDemo"]
+updatedAt: "2026-11-11"
+sourceKeys: [steam, oneMoreLevel]
+demoNotice: false
+preRelease: false
 cover: "/images/vm-paris-nightmare.webp"
+faqs:
+  - question: "Which Steam app downloads the full Valor Mortis game?"
+    answer: "Steam app 2828710 is the full game, released on October 13, 2026. App 4641840 is the older Demo and does not itself grant retail ownership."
+  - question: "How much storage does Valor Mortis need on PC?"
+    answer: "The current Steam retail requirements specify 60 GB of available space and an SSD. Allow additional working space for installation and updates; console sizes are separate."
+  - question: "Can I still download the free Demo?"
+    answer: "Check the old Demo page and your Steam library. The current check did not show a reliable fresh-install offer, so new installation availability is not guaranteed for every account or region."
+  - question: "Can I move my Demo save into the full game?"
+    answer: "A supported Demo-to-retail transfer was not confirmed in this check. Keep a backup and do not assume the separate apps have compatible saves or configuration files."
 ---
 
-## Official download link
+**Download the full Valor Mortis through its retail store entry, not an old Demo installer.** The full game released on October 13, 2026. For Steam, use **app 2828710**. The older free Demo is a separate app, **4641840**. This page helps you identify the product, check your PC and finish a first installation. Use the [platform decision page](/release-date/) if you are choosing between PC, PlayStation 5 and Xbox Series X|S.
 
-The **Valor Mortis Demo is free** and available only through Steam. This site never hosts game files or mirrors.
+## Pick the correct download
 
-**[Open the Valor Mortis Demo on Steam →](https://store.steampowered.com/app/4641840/Valor_Mortis_Demo/)**
+<figure><img src="/images/vm-paris-nightmare.webp" alt="A ruined environment in the full Valor Mortis game" width="1920" height="1080" loading="lazy" /></figure>
 
-If you searched "Valor Mortis download" or "Valor Mortis demo free", that Steam page — app id `4641840` — is the safe install path. Any other site offering a "Valor Mortis download" is not an official distribution channel.
+| What you want | Product to open | Next action |
+|---|---|---|
+| Complete Steam game | [Valor Mortis, app 2828710](https://store.steampowered.com/app/2828710/Valor_Mortis/) | Buy or use your existing license, then install from your library |
+| PlayStation 5 game | [Official PlayStation product](https://store.playstation.com/concept/10016571) | Check your PS5 license and download through PlayStation |
+| Xbox Series X\|S or Xbox on PC | [Official Xbox product](https://www.xbox.com/en-US/games/store/valor-mortis/9P861V1542BL/0010) | Check purchase or current subscription entitlement |
+| Old sample in your library | [Steam Demo, app 4641840](https://store.steampowered.com/app/4641840/Valor_Mortis_Demo/) | Inspect your existing entry; a new installation is not guaranteed |
+| Retail gameplay help | [Full-game guides](/guides/) | Choose your chapter, quest or combat topic after installation |
 
-| Item | Official detail |
-|---|---|
-| Product | Valor Mortis Demo (free) |
-| Steam app id | 4641840 |
-| Demo released | June 7, 2026 |
-| Platform | PC (Windows, Steam) |
-| Full game | Valor Mortis, app id 2828710 — released October 13, 2026 |
-| Developer | One More Level (creators of Ghostrunner) |
-| Publisher | Lyrical Games / One More Level |
+An age prompt or sign-in page can appear before a store shows the product. That does not turn the Demo into a paid copy or establish that the full game has been removed. Continue through the normal account flow and inspect the product name and action button. If you already purchased it, use the account holding the license before paying again from another profile.
 
-Steam may ask you to sign in or confirm your age before installing. That is normal store behaviour, not a paywall — the Demo itself costs nothing.
+## Current PC requirements: full Steam game
 
-## Why this page exists
+These are the **retail Steam requirements**, checked November 11, 2026. They replace the Demo-era hardware assumptions previously shown here. They do not describe the exact size of the Demo, PlayStation or Xbox build.
 
-Download searches are where players end up on scam pages, repacks, and fake installers. The full game is out. This page still only does three things:
+| Component | Minimum | Recommended |
+|---|---|---|
+| Operating system | Windows 10/11 | Windows 10/11 |
+| Processor | AMD Ryzen 5 3600 / Intel Core i5-10600K | AMD Ryzen 7 5800X / Intel Core i5-13400 |
+| Memory | 16 GB RAM | 16 GB RAM |
+| Graphics | AMD RX 5600 XT / NVIDIA GTX 1660 Ti | AMD RX 6800 / NVIDIA RTX 3070 |
+| Graphics API | DirectX 12 | DirectX 12 |
+| Storage | 60 GB available space; SSD required | 60 GB available space; SSD required |
+| Published target | 30 FPS at 1080p, Low, with upscaling | 60 FPS at 1440p, Medium, with upscaling |
 
-1. Point at the **official** Steam app, by id, so you can verify it yourself
-2. State the **PC requirements before you install**, so you don't burn 50 GB finding out
-3. Explain **what is actually in the Demo build**, so you know what you're downloading
+The frame-rate lines are published configuration targets, not guarantees for every scene, driver or handheld. Compare processor, memory and storage as well as the graphics card. Start with a workload appropriate to the whole system rather than choosing maximum settings because one component exceeds the minimum.
 
-## PC requirements (check before you install)
+Keep working space beyond the listed requirement so the launcher can unpack and update files. Download size and installed space can differ because they describe different stages of installation. Do not delete saves to make room. Select a suitable SSD library or move other games through the launcher's supported tools.
 
-These are the requirements published on the official Steam store page. The Demo build shares the full game's engine and asset pipeline, so treat these as the floor.
+## Install the full Steam game step by step
 
-### Minimum
+1. **Verify the product.** Confirm app 2828710. A Demo, soundtrack, upgrade or skin pack is not the base game.
+2. **Check ownership.** Use the Steam account with the license. If the store asks for payment when you expected Install, inspect your account and library first.
+3. **Choose the SSD library.** Confirm the listed space plus room for updates. Let Steam manage the directory rather than merging an older build's files.
+4. **Finish queued downloads.** Complete installation and updates before launch. Do not infer a version from an old shortcut or trailer.
+5. **Check first-launch settings.** Review the actual menu's controls, subtitles and display options. Begin with an appropriate graphics workload and confirm that loading works.
+6. **Choose targeted help.** For repeatable hitching, use the [PC stutter checklist](/pc-stutter-after-halloween-update/). For progression, use the [retail library](/guides/) instead of repeatedly reinstalling.
 
-- **OS:** Windows 10 64-bit
-- **CPU:** Intel Core i5-8400 / AMD Ryzen 5 2600
-- **Memory:** 16 GB RAM
-- **GPU:** NVIDIA GeForce GTX 1070 / AMD Radeon RX 5600 XT
-- **DirectX:** Version 12
-- **Storage:** 50 GB available space
+If files appear damaged, Steam's installed-file verification is a separate step from deleting configuration or saves. Avoid combining a reinstall, driver replacement and manual file deletion in one attempt: you would lose the ability to identify which change affected the symptom.
 
-### Recommended
+## Returning from the Playtest or Demo
 
-- **OS:** Windows 10/11 64-bit
-- **CPU:** Intel Core i7-10700 / AMD Ryzen 7 3700X
-- **Memory:** 16 GB RAM
-- **GPU:** NVIDIA GeForce RTX 2070 / AMD Radeon RX 6700 XT
-- **DirectX:** Version 12
-- **Storage:** 50 GB available space
+Identify which library entry you are opening. An old shortcut can still start the Demo after you purchase the full game. Launch the retail product from its own page once and confirm its identity before troubleshooting missing campaign content. Keep the old sample separate if you still want to revisit it.
 
-Full tuning notes, comfort options, and the problems people hit on first launch are collected in [Demo settings & known issues](/demo/settings-and-known-issues/).
+The current Demo API request did not return product details, and the public route did not provide a reliable fresh-install offer in our check. Neither observation proves that all existing owners have lost access. Inspect Steam's actual account-specific entry. If no install option appears, the full game remains a different product; there is no verified universal free-full-game download here.
 
-## What you get after installing
+Do not assume the apps have compatible saves or settings. A supported Demo-to-retail transfer was not confirmed in this check. Preserve a backup and follow current developer instructions if a transfer option is offered. Do not rename the Demo save directory, merge configuration files or overwrite a working campaign merely because a community post describes success on another build.
 
-From the official Steam listing, the Demo build includes:
+An earlier official patch note advised Playtest or Demo users about resetting a particular settings file. That is historical troubleshooting for a specific configuration, not a reason to erase all game data before every launch. If the retail game works normally, finish setup and play. If it does not, identify the current symptom before changing files.
 
-- The opening stretch of a **19th-century Eastern Europe twisted by dark magic**, playing a fallen soldier of Napoleon's Grande Armée
-- **First-person soulslike combat** blending a rapier with pistol gunplay
-- **Resurrection used as a tactical advantage** rather than only a fail state
-- **Save Anytime**, so you can stop mid-session without losing progress
-- Full controller support, including DualSense
+## Console and subscription boundaries
 
-A structured route through it is in the [Demo walkthrough](/demo/walkthrough/), and the boss encounter has its own page in the [boss guide](/demo/boss-guide/).
+PlayStation 5 and Xbox Series X|S are confirmed platforms, not unannounced ports. Use each console's own library or store link above. The PC table does not establish a console download size, and a Windows Demo does not grant a console license. For Xbox subscriptions, confirm your current plan and region cover the exact product.
 
-## Install checklist
-
-1. Open the official Steam Demo link above and confirm the app id reads **4641840**
-2. Install to an **SSD** — 50 GB, and load-heavy soulslike areas punish spinning disks
-3. Update your GPU drivers before the first launch
-4. Launch once and set your sensitivity, FOV, and subtitles before combat starts
-5. Skim [weapons & abilities](/demo/weapons-and-abilities/) so you don't miss a core mechanic in the first hour
-
-## Does Demo progress carry to the full game?
-
-**Not confirmed.** One More Level has not published a save-transfer or carry-over policy for the Demo, and we will not guess at one. Plan the Demo as a self-contained sample: play it to decide whether the full game is for you, not to bank progress.
-
-The moment a carry-over statement is published, it goes on this page with the source and date attached.
-
-## Where to get the full game
-
-The full release is a separate paid product — **[Valor Mortis on Steam](https://store.steampowered.com/app/2828710/Valor_Mortis/)**, app id `2828710`, launching **October 13, 2026**. Wishlisting it there is the only official way to be notified at launch.
-
-Console versions have not been announced. Only PC/Steam is confirmed.
-
-## Related pages
-
-- [Release date & platforms](/release-date/)
-- [Demo guide hub](/demo/)
-- [Demo walkthrough](/demo/walkthrough/)
-- [Boss guide](/demo/boss-guide/)
-- [Weapons & abilities](/demo/weapons-and-abilities/)
-- [Settings & known issues](/demo/settings-and-known-issues/)
+Xbox Play Anywhere applies to the eligible Xbox digital product and account. It is not a promise that Steam or PlayStation purchases include the Xbox copy. Save sharing between different storefronts is not assumed here. Check entitlement first, installation second and save compatibility separately. Those checks prevent an apparent download problem from becoming an unnecessary purchase or a risky file-copy experiment.

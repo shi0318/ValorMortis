@@ -17,6 +17,8 @@ function frontmatterDate(file) {
 // Only guide frontmatter supplies a sitemap date; static routes omit it.
 function lastmodFor(url) {
   const pathname = new URL(url).pathname;
+  const changedStaticPages = { '/': '2026-11-11', '/guides/': '2026-11-11', '/demo/': '2026-11-11' };
+  if (changedStaticPages[pathname]) return changedStaticPages[pathname];
   const slug = pathname.replace(/^\/+|\/+$/g, ''); // 去首尾斜杠
   const candidates = [`src/content/guides/${slug}.md`, `src/content/guides/${slug}.mdx`];
   const file = candidates.find((rel) => existsSync(join(ROOT, rel)));

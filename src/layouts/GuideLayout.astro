@@ -24,6 +24,7 @@ interface Props {
   demoNotice?: boolean;
   image?: string;
   updatedAt: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 const {
@@ -35,6 +36,7 @@ const {
   demoNotice = true,
   image,
   updatedAt,
+  faqs = [],
 } = Astro.props;
 
 const SEGMENT_LABEL: Record<string, string> = {
@@ -75,6 +77,8 @@ const sources: SourceRef[] = sourceKeys.map((k) => SOURCES[k]);
   breadcrumbs={crumbs}
   noindex={noindex}
   image={image}
+  updatedAt={updatedAt}
+  faqs={faqs}
 >
   <article class="container max-w-3xl py-10">
     <Breadcrumb items={crumbs} />
@@ -94,6 +98,7 @@ const sources: SourceRef[] = sourceKeys.map((k) => SOURCES[k]);
 
     <div class="prose-page mt-8">
       <slot />
+      {faqs.length > 0 && <section aria-label="Frequently asked questions"><h2>Frequently asked questions</h2>{faqs.map(faq => <section><h3>{faq.question}</h3><p>{faq.answer}</p></section>)}</section>}
     </div>
 
     <SourcePanel sources={sources} />

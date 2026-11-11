@@ -37,15 +37,15 @@ export const OFFICIAL_FACTS: OfficialFact[] = [
   },
   {
     label: 'Demo',
-    value: 'Free Valor Mortis Demo — released June 7, 2026, playable now on Steam',
+    value: 'Archived free Demo — released June 7, 2026; check current account access separately',
     sourceLabel: 'Steam Demo',
     sourceUrl: SITE.demoUrl,
   },
   {
     label: 'Platform',
-    value: 'Windows PC via Steam (DirectX 12, 64-bit)',
-    sourceLabel: 'Steam',
-    sourceUrl: SITE.steamUrl,
+    value: 'Windows PC, PlayStation 5 and Xbox Series X|S',
+    sourceLabel: 'Official game website purchase links',
+    sourceUrl: SITE.officialSite,
   },
   {
     label: 'Setting',

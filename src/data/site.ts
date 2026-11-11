@@ -20,24 +20,24 @@ export const SITE = {
   steamUrl: 'https://store.steampowered.com/app/2828710/Valor_Mortis/',
   demoAppId: '4641840',
   demoUrl: 'https://store.steampowered.com/app/4641840/Valor_Mortis_Demo/',
-  officialSite: 'https://valormortis.com',
+  officialSite: 'https://valormortis.game/',
   // Setting / premise (verified from Steam description)
   protagonist: "a fallen soldier of Napoleon's Grande Armée",
   setting: 'a 19th-century Eastern Europe twisted by dark magic',
   // Studio pedigree (verified on Steam page)
   studioNote: 'from the creators of Ghostrunner',
-  platforms: ['Steam (PC)'] as const,
-  lastVerified: '2026-10-15',
+  platforms: ['Windows PC', 'PlayStation 5', 'Xbox Series X|S'] as const,
+  lastVerified: '2026-11-11',
 } as const;
 
 export const NAV = [
   { label: 'Full-Game Guides', href: '/guides/' },
   { label: 'Demo Guide', href: '/demo/' },
-  { label: 'Walkthrough', href: '/demo/walkthrough/' },
-  { label: 'Boss Guide', href: '/demo/boss-guide/' },
-  { label: 'Weapons & Powers', href: '/demo/weapons-and-abilities/' },
+  { label: 'Demo Walkthrough', href: '/demo/walkthrough/' },
+  { label: 'Demo Boss', href: '/demo/boss-guide/' },
+  { label: 'Demo Weapons', href: '/demo/weapons-and-abilities/' },
   { label: 'Characters & Lore', href: '/characters-and-lore/' },
-  { label: 'Settings', href: '/demo/settings-and-known-issues/' },
+  { label: 'Demo Settings', href: '/demo/settings-and-known-issues/' },
   { label: 'Download', href: '/download/' },
   { label: 'Release Date', href: '/release-date/' },
 ] as const;

@@ -19,8 +19,8 @@ export const SOURCES = {
     url: 'https://store.steampowered.com/app/2828710/Valor_Mortis/',
     publisher: 'Valve / Steam',
     status: 'platform',
-    lastChecked: LAST_CHECKED,
-    note: 'App id 2828710 — developer, publisher, release date, genres, categories, PC requirements, screenshots, and the official store description.',
+    lastChecked: '2026-11-11',
+    note: 'App id 2828710 — released October 13, 2026; current retail PC requirements include 60 GB and SSD; platform, purchase and Demo details are kept separate.',
   },
   steamDemo: {
     label: 'Valor Mortis Demo Steam page',

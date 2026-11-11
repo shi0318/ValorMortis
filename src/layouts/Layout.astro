@@ -20,6 +20,8 @@ interface Props {
   breadcrumbs?: Crumb[];
   noindex?: boolean;
   fullWidth?: boolean;
+  updatedAt?: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 const {
@@ -31,6 +33,8 @@ const {
   breadcrumbs = [],
   noindex = false,
   fullWidth = false,
+  updatedAt,
+  faqs = [],
 } = Astro.props;
 
 const path = Astro.url.pathname;
@@ -59,7 +63,7 @@ const videoGame = {
   name: SITE.gameName,
   applicationCategory: 'Game',
   genre: ['Action', 'Adventure', 'RPG'],
-  gamePlatform: ['PC'],
+  gamePlatform: SITE.platforms,
   author: { '@type': 'Organization', name: SITE.developer },
   publisher: { '@type': 'Organization', name: SITE.publisher },
   datePublished: SITE.releaseDate,
@@ -91,6 +95,7 @@ if (pageType === 'home') {
     isPartOf: { '@id': `${SITE.url}/#website` },
     publisher: { '@id': `${SITE.url}/#organization` },
     author: { '@id': `${SITE.url}/#organization` },
+    ...(updatedAt ? { dateModified: updatedAt } : {}),
   });
 }
 
@@ -107,6 +112,16 @@ if (breadcrumbs.length > 0 && canonicalUrl) {
   });
 }
 
+if (faqs.length > 0 && canonicalUrl) {
+  graph.push({
+    '@type': 'FAQPage',
+    '@id': `${canonicalUrl}#faq`,
+    mainEntity: faqs.map(faq => ({
+      '@type': 'Question', name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+    })),
+  });
+}
 const schema = { '@context': 'https://schema.org', '@graph': graph };
 ---
 

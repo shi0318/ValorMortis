@@ -1,69 +1,73 @@
 ---
-title: "Valor Mortis Release Date — October 13, 2026 on Steam"
-heading: "Valor Mortis release date and platforms"
-description: "Valor Mortis releases October 13, 2026 on Steam. Confirmed platforms, the free Demo that is playable now, and what is still unannounced."
-category: "news"
-status: "official"
+title: "Valor Mortis Is Out: Release Date, Platforms and Purchase Choices"
+heading: "Valor Mortis release date and current platforms"
+description: "Valor Mortis released October 13, 2026. Compare Steam, PlayStation 5 and Xbox versions, Game Pass access, editions, and the separate Demo archive."
+category: news
+status: official
 order: 3
-updatedAt: "2026-07-30"
-sourceKeys: ["steam", "steamDemo", "oneMoreLevel"]
+updatedAt: "2026-11-11"
+sourceKeys: [steam, oneMoreLevel]
+demoNotice: false
+preRelease: false
 cover: "/images/vm-paris-nightmare.webp"
+faqs:
+  - question: "Is Valor Mortis out now?"
+    answer: "Yes. Valor Mortis released on October 13, 2026. The full game has Steam, PlayStation 5 and Xbox purchase routes; it is not awaiting its original launch."
+  - question: "Is Valor Mortis only available on Steam?"
+    answer: "No. The official game website links Steam, PlayStation Store and Xbox. Xbox also confirms Xbox Series X|S and Xbox on PC; check the relevant storefront for your device and region."
+  - question: "Is the free Demo the full game?"
+    answer: "No. Steam app 2828710 is the full game, while app 4641840 identifies the older Demo. Do not assume a Demo install grants the paid game or transfers progress."
+  - question: "Does a Steam purchase include the Xbox version?"
+    answer: "Do not assume it does. Xbox Play Anywhere is an Xbox purchase entitlement, not a promise that a separate Steam license includes an Xbox copy. Check the exact product and account before buying."
 ---
 
-## Short answer
+**Valor Mortis released on October 13, 2026.** The complete game has **Steam, PlayStation 5 and Xbox Series X|S** purchase routes, with Xbox on PC also confirmed. October 13 is a completed release, not a preorder target. This page was updated on November 11 to help you choose a version; campaign help remains in the [full-game guide library](/guides/).
 
-**Valor Mortis releases on October 13, 2026** for **PC (Steam)**.
+## Choose the store that matches your device
 
-That date comes from the official [Valor Mortis Steam store page](https://store.steampowered.com/app/2828710/Valor_Mortis/) (app id `2828710`), last checked 2026-07-27.
+<figure><img src="/images/vm-paris-nightmare.webp" alt="Valor Mortis environment showing the game's ruined alternate-history setting" width="1920" height="1080" loading="lazy" /></figure>
 
-| Item | Status |
-|---|---|
-| Full release | October 13, 2026 |
-| Confirmed platform | PC — Steam |
-| Console versions | **Not announced** |
-| Free Demo | Playable now (released June 7, 2026) |
-| Developer | One More Level — creators of Ghostrunner |
-| Publisher | Lyrical Games / One More Level |
-| Price | Not listed on the store page yet |
+| Where you want to play | Official route | Check before paying |
+|---|---|---|
+| Windows PC with Steam | [Steam full game, app 2828710](https://store.steampowered.com/app/2828710/Valor_Mortis/) | Hardware, account, edition and regional price |
+| PlayStation 5 | [PlayStation Store](https://store.playstation.com/concept/10016571) | PS5 product and whether the base game is included |
+| Xbox Series X\|S | [Xbox product](https://www.xbox.com/en-US/games/store/valor-mortis/9P861V1542BL/0010) | Purchase versus subscription entitlement and exact bundle |
+| Windows PC through Xbox | The Xbox product family above | Xbox on PC eligibility, account and current membership terms |
+| Existing old Steam Demo | [Demo archive](/demo/) | Separate app; not ownership of the complete game |
 
-## You can play part of it today
+The official game website now provides Buy Now links to all three storefront families. Steam listing Windows does not mean console versions are unannounced: it describes that particular PC product. Conversely, Xbox supported devices do not establish that a Steam license includes them. Match the purchase to the store where you intend to play.
 
-You do not have to wait for October to try Valor Mortis. A **free Demo** has been on Steam since **June 7, 2026** as a separate app (`4641840`), and it includes **Save Anytime** so you can stop and resume.
+No Switch or Switch 2 purchase route was confirmed in the official listings checked for this update. A portable Windows PC is not evidence of a Nintendo version. Another platform would need its own announcement or product listing, rather than a guess based on controller support.
 
-1. Install it from our [download page](/download/), which links the official Steam app only
-2. Work through the [Demo walkthrough](/demo/walkthrough/)
-3. Read [settings & known issues](/demo/settings-and-known-issues/) before your first launch
+## Ownership, Game Pass and Xbox Play Anywhere
 
-Everything on this site that is marked **demo-tested** comes from that build. Everything marked **official** comes from the store pages. Nothing here is guesswork dressed up as fact.
+Xbox's launch announcement confirms Xbox Series X|S, Xbox on PC, Game Pass and Xbox Play Anywhere support. Its October Game Pass announcement named Game Pass Ultimate and PC Game Pass for launch access. This establishes a subscription route; it does not guarantee every current tier, region, streaming device or future catalogue period includes the title.
 
-## What the full game is
+Before subscribing solely for this game, open its current product page while signed in and check the plan offered to your account. Distinguish an Install option tied to a subscription from a purchase license. If you already own the eligible Xbox digital product, inspect its Play Anywhere entitlement before buying another Xbox on PC copy. Do not extend that benefit to Steam or PlayStation without an explicit entitlement.
 
-You play **a fallen soldier of Napoleon's Grande Armée**, resurrected into **a 19th-century Eastern Europe twisted by dark magic** — a first-person action soulslike where melee and gunplay are fused, and where resurrection is a tactical tool rather than only a fail state. See the [Demo guide hub](/demo/) for how that plays in practice and [weapons & abilities](/demo/weapons-and-abilities/) for the combat kit.
+Cloud access is separate from a locally installed PC or console version. Streaming eligibility and membership requirements belong to the current Xbox listing. Platform support, cross-buy and save compatibility are different features; this page does not promise cross-save between Steam, PlayStation and Xbox.
 
-## What is still unannounced
+## Standard game or a larger bundle?
 
-Being honest about the gaps matters more than filling them:
+First identify whether the item includes **Valor Mortis, the base game**. A Deluxe Edition, Deluxe Upgrade and individual add-on can appear beside each other while granting different things. If you already own the base game, compare upgrade contents before buying a second bundle. If you own nothing, an upgrade-only item may not give you a playable campaign.
 
-- **Price.** No figure is listed on the Steam page yet.
-- **Console releases.** No PS5, Xbox, or Switch 2 version has been announced. The only confirmed platform is Steam.
-- **Editions and pre-order bonuses.** Nothing published.
-- **Whether Demo progress carries over.** No save-transfer policy has been stated.
-- **Full-game content scope.** Area count, boss count, and run length are all unknown outside the Demo slice.
+The checked Xbox Deluxe listing includes the base game, a weapon skin pack and additional scheduled content. Some items are planned for 2027. Buying that bundle does not mean every item is already playable, and a future story DLC date is not the main game's release date. Read each item's availability wording and the final product breakdown.
 
-Each of those goes on this page with a source and a date the day it is announced — not before.
+Prices vary by platform, region and promotion. Check currency, taxes, membership conditions and bundle contents at checkout. A price in one country's store should not become a permanent universal price claim. There is no need to wait for a launch-notification wishlist to establish whether the full game has shipped.
 
-## Will the date slip?
+## Full game and Demo are separate products
 
-It can. October 13, 2026 is the developer's current target on a live store listing, not a shipped fact. Soulslike projects from small teams have moved before. If it moves, this page changes the same day and so does the countdown on the [home page](/), which computes from the stored date rather than hardcoding text.
+Steam app **2828710** is the retail game. App **4641840** identifies the older free Demo documented by this site's archive, historically released June 7, 2026. The current API check did not return product details for the Demo, and its public store route did not provide a reliable fresh-install offer in our check. This does not prove every existing owner has lost access; inspect the action Steam offers your account.
 
-## How to be notified
+An existing Demo library entry is not retail ownership and does not establish a supported save transfer. Keep old saves intact. Install the complete product through its own library entry and follow current instructions if the developer explicitly provides a transfer option. Do not rename folders or overwrite retail files because two apps share a title.
 
-Wishlisting on the official [Steam page](https://store.steampowered.com/app/2828710/Valor_Mortis/) is the only official notification channel. The developer's site, [omlgames.com](https://omlgames.com/), carries studio-level announcements.
+The archive is useful for identifying what an early video or guide discussed. It should not determine the retail game's hardware requirements, patch state or purchase status. The [download and installation page](/download/) supplies current PC requirements and an installation checklist for returning Demo players.
 
-## Related pages
+## After choosing your version
 
-- [Download the free Demo](/download/)
-- [Demo guide hub](/demo/)
-- [Demo walkthrough](/demo/walkthrough/)
-- [Boss guide](/demo/boss-guide/)
-- [Settings & known issues](/demo/settings-and-known-issues/)
+1. Open the relevant store and confirm the device, account, product name and base-game inclusion.
+2. On PC, compare your system with the [retail requirements](/download/), especially the SSD and 60 GB space requirement.
+3. Complete the normal purchase or entitlement process, then install the latest update offered by that platform. An old video is not a version check.
+4. Start with [retail guides](/guides/). Use the clearly marked Demo archive only when you deliberately want older-build context.
+
+This page owns the release and platform decision. Once installed, move to the relevant chapter or [combat practice guide](/multi-enemy-positioning-threat-control/) instead of waiting for another launch announcement.
