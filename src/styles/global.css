@@ -250,10 +250,12 @@ summary:focus-visible {
 }
 
 .prose-page table {
+  display: block;
+  max-width: 100%;
   width: 100%;
   border-collapse: collapse;
   margin-top: 1.25rem;
-  overflow: hidden;
+  overflow-x: auto;
   border-radius: 10px;
   font-size: 0.95rem;
 }

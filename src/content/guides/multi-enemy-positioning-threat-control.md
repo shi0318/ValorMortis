@@ -8,7 +8,7 @@ demoNotice: false
 preRelease: false
 order: 1
 cover: /images/vm-monster-encounter.webp
-updatedAt: 2026-11-10
+updatedAt: "2026-11-17"
 ---
 
 ![William facing a hostile creature in the ruined world of Valor Mortis](/images/vm-monster-encounter.webp)
@@ -69,4 +69,4 @@ Should I always retreat from several enemies? No. Reposition when it solves a vi
 
 Is this a new patch or an optimized build? Neither. It is a focused combat-learning guide prompted by continuing player difficulty discussions, checked during the November 10 review. The latest official update found in that check remains the October 27 release. No new balance values are claimed here. The central routine is durable: read the space, keep threats visible, commit briefly, and reassess. Use your current weapon and abilities to carry it out, then let repeated observations refine the details.
 
-Read the [single-opponent parry lesson](/guides/parry-before-the-shot/), [Rapier and Saber practice](/rapier-saber-critical-combat-practice/), and [PC stutter checklist](/pc-stutter-after-halloween-update/).
+Read the [single-opponent parry lesson](/rapier-saber-critical-combat-practice/), [Rapier and Saber practice](/rapier-saber-critical-combat-practice/), and [PC stutter checklist](/pc-stutter-after-halloween-update/).

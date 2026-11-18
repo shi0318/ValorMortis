@@ -1,86 +1,81 @@
 ---
-title: "Valor Mortis Achievements Guide — All 39 Steam Achievements"
-heading: "Valor Mortis 100% achievement checklist"
-description: "A Valor Mortis guide to all 39 Steam achievements, with boss fights, weapon feats, Ambers, side quests, and a practical completion route."
+title: "Valor Mortis Achievement Planning: Visible Challenges and Careful Cleanup"
+heading: "Achievement planning: read the condition before choosing the route"
+description: "Plan Valor Mortis visible Steam challenges, keep story spoilers separate and diagnose missing unlocks without invented locations or achievement-rate assumptions."
 category: secrets
 status: official
 sourceKeys: []
 demoNotice: false
 preRelease: false
-order: 1
+order: 4
 cover: "/images/vm-boss-fight.webp"
-updatedAt: "2026-10-15"
+updatedAt: "2026-11-17"
 ---
 
-Valor Mortis has **39 Steam achievements**. The checklist below uses the retail game’s current achievement names and keeps the story reveals in a spoiler section so you can plan a clean first run. Steam does not assign PlayStation-style bronze, silver, gold, or platinum tiers to these achievements.
+The retail Steam listing contains 39 achievements. The public achievement page reviewed on November 17, 2026 exposes 23 ordinary challenge descriptions and keeps the remaining story entries hidden. This guide uses the visible conditions to plan attempts without publishing a supposed complete chapter-by-chapter collection route. The Steam count does not establish PlayStation trophy tiers or the exact wording on another platform.
 
-<figure>
-  <img src="/images/vm-boss-fight.webp" alt="William facing a plague-mutated enemy with a pistol and rapier in Valor Mortis" width="1920" height="1080" loading="eager" decoding="async" />
-  <figcaption>The retail achievement list mixes boss fights with weapon, movement, and exploration challenges.</figcaption>
-</figure>
+![Valor Mortis official combat artwork](/images/vm-boss-fight.webp)
 
-## A safe 100% route
+## Read the condition before the setup
 
-1. Keep one save slot for exploration and return to Lanterns before testing a risky challenge. There are no difficulty options, so a missed combat feat is easier to repeat than to force during a boss attempt.
-2. Pick up every Amber you see and finish side quests as soon as they open. **Ambersmith**, **Aggressive Reconnaissance**, **The Bitter Cure**, **Blood and Wine**, **Hand in the Jar**, and **The Book of Beasts** all reward deliberate exploration.
-3. Upgrade one melee weapon, one firearm, and one Transmutation all the way. That single-item approach is enough for **Bladesmith**, **Gun of Glory**, and **Transmutation Artifex**; do not spread upgrade materials across the whole arsenal too early.
-4. Before the final stretch, clean up the movement and combat feats below. **Jack-knife** requires damage with every melee weapon, firearm, and Transmutation without dying, so make a written checklist and use ordinary enemies near a Lantern.
-5. The story and side-quest trophies are listed after the spoiler break. Fast travel makes cleanup practical, but complete a quest chain before pushing the next chapter if an NPC disappears from its starting point.
+An achievement name is not enough to identify what counts. Read its description in the platform overlay and compare the weapon, action and number required. A successful-looking move can fail to meet a narrower condition: damaging an enemy is not the same as delivering the finishing damage, and a jumping shot is not automatically the named Airborne Aiming action.
 
-## Spoiler-free combat and exploration checklist
+Keep the current build and app clear. The retail game and the historical Demo are different Steam products. An action performed in the Demo does not establish retail achievement progress. Likewise, a guide's old global percentage tells you how common an unlock was in a particular population at that time; it does not prove why another player has not earned it.
 
-| Achievement | Requirement | Reliable setup |
-| --- | --- | --- |
-| **Arsenal Absolute** | Unlock every weapon and Transmutation. | Follow the main campaign and check the Abandoned Church whenever a new upgrade option appears. |
-| **We Wear the Same Colors** | Defeat all Eternal Guardists. | Finish the Oathbreaker chain and revisit missed Guardist arenas before the endgame. |
-| **Gun of Glory** | Fully upgrade one firearm. | Commit materials to one gun at the Abandoned Church. |
-| **Ambersmith** | Gather every Amber. | Sweep side paths and return after new mobility powers open blocked routes. |
-| **Transmutation Artifex** | Fully upgrade one Transmutation. | Build one power first instead of splitting materials across all powers. |
-| **Bladesmith** | Fully upgrade one melee weapon. | Use a single main blade until the maximum upgrade is reached. |
-| **Aerial Annihilation** | Kill an enemy with a headshot after a wall jump. | Unlock Airborne Aiming and use a Nephtowall above a weak enemy. |
-| **Scattershot** | Kill five enemies with one Blunderbuss shot. | The barn in Chapter 3’s Fallen Village Marketplace funnels six Shambling Civilians together; Collateral Damage makes the spread forgiving. |
-| **Windhover** | Kill three enemies with a pistol while Airborne Aiming. | Find three enemies beside high ground and shoot during the airborne aim window. |
-| **Hoodsnatcher** | Decapitate three enemies with one Claymore attack. | Upgrade the Claymore and gather a group that can be lined up in one swing. |
-| **Symphony of Steel** | Perform ten parries without taking damage. | Use the Rapier and its defensive rhythm against predictable soldiers; reset at a Lantern if you are hit. |
-| **Flame Feast** | Set four enemies on fire with one Flamethrower use. | Pull a tight group through a doorway before holding the Fire input. |
-| **Statue of Insanity** | Fully lock a Remnant of the Iron Regiment in Stasis. | Apply Stasis repeatedly; the Under the Bridge and Fortress Chapel encounters give room to test it. |
-| **Abyssal Eviction** | Kill an enemy by pushing it into the abyss with Shield Bash. | Lure a light enemy to a safe ledge and use Shield Bash when its footing is exposed. |
-| **Single Stroke** | Shoot off a Risen Grenadier’s bucket. | Aim at the bucket rather than the body; the Demolished Path bridge in Chapter 2 is an early opportunity. |
-| **God’s Trigger** | Land ten consecutive headshots or weak-point hits without missing. | Use a quiet encounter such as Tribunal Square in Chapter 8 and reset if the chain breaks. |
-| **Frenzied Flame** | Ignite the bonfire in the castle. | This is tied to the castle route; interact with the bonfire when the objective becomes available. |
-| **Mind the Gap** | Die by falling into the abyss. | Use a harmless ledge after banking Catalysts at a Lantern. |
-| **Rookie Mistake** | Try to use a Ferro Flask with none remaining. | Empty the flask charges, then press the flask input once more. |
-| **In the Nick of Time** | Interact with a Lantern below 20% health with no flasks left. | Remove flask charges first, leave a sliver of health, and reach a nearby Lantern without healing. |
-| **Fight Fire With Fire** | Ignite an enemy while William is also ignited. | A flame-tank Volunteer can trigger both states; the main road in Shamble Street is a useful setup. |
-| **Jack-knife** | Deal damage with every melee weapon, firearm, and Transmutation without dying. | Keep a checklist, tag a safe enemy with each item, and finish at a Lantern before attempting a boss. |
+## Visible Steam challenge conditions
 
-## Hidden story and quest achievements
+The following are the visible descriptions from the platform's public list. They describe the goal, not a guaranteed location, hidden counter interface or fastest method. Story and quest entries hidden by Steam are deliberately excluded from this table.
 
-These sixteen achievements reveal bosses, allies, and side quests. Keep this section closed if you want a first playthrough without names in advance.
-
-| Achievement | Requirement |
+| Challenge | Published condition |
 | --- | --- |
-| **Torn Banner** | Kill General Lothaire, the Eagle-Bearer in Chapter 2. |
-| **Ultima Ratio Regum** | Defeat the Iron Marshall in Chapter 3. |
-| **Not a Cat Person** | Defeat the Sphinx in Chapter 4. |
-| **Quixotry** | Defeat the Slaughtermill in Chapter 5. |
-| **My Dying Bride** | Defeat Anna, the Bride Drowned in Tears in Chapter 6. |
-| **True Oath** | Defeat Justicar Aurelius in Chapter 7. |
-| **Lament of The Limbs** | Defeat Experiment 83 in Chapter 7. |
-| **Birdwatcher** | Have a rendezvous with the Shrike. |
-| **Coup de Grâce** | Defeat the Orphan in Chapter 9. |
-| **Behemoth** | Defeat Nephtis Superioris. |
-| **In His Own Image** | Defeat the Entity. |
-| **The Bitter Cure** | Complete the Laudanum quest, which begins in Chapter 7’s Outskirts. |
-| **Blood and Wine** | Complete the Curious Case of Seamus Diggory quest, which starts in Chapter 6’s Cursed Hollow. |
-| **Hand in the Jar** | Complete the Deserter quest, which begins in Chapter 5’s Vale of Wrath. |
-| **Aggressive Reconnaissance** | Complete the Unheard Farewell quest, which begins at the broken-bridge Lantern in Chapter 2’s Valley of Ashes. |
-| **The Book of Beasts** | Complete the Monster Hunt quest, which begins with the drawing on a tree at the start of Chapter 8. |
+| Rookie Mistake | Attempt to use Ferro Flask with none remaining |
+| Mind the Gap | Die by falling into the abyss |
+| Single Stroke | Shoot off a Risen Grenadier's bucket |
+| In the Nick of Time | Interact with a lantern while below 20% health and no flasks remaining |
+| God&#x27;s Trigger | Land 10 consecutive headshots or weak point hits without missing |
+| Symphony of Steel | Perform 10 parries without taking damage |
+| Bladesmith | Upgrade a single melee weapon to maximum |
+| Arsenal Absolute | Unlock all weapons and transmutations |
+| Flame Feast | Set 4 enemies on fire with a single flamethrower use |
+| Gun of Glory | Upgrade a single firearm to maximum |
+| Transmutation Artifex | Upgrade a single Transmutation to maximum |
+| Fight Fire With Fire | Ignite an enemy while you are also ignited |
+| Statue of Insanity | Fully lock Remnant of the Iron Regiment enemy in Stasis. |
+| Ambersmith | Gather all Ambers |
+| We Wear the Same Colors | Defeat all Eternal Guardists |
+| Frenzied Flame | Ignite the bonfire in the castle |
+| Windhover | Kill 3 enemies with pistol while Airborne Aiming |
+| Jack-knife | Deal damage with every melee weapon, firearm, and transmutation without dying |
+| Aerial Annihilation | Kill an enemy with a headshot after a wall jump |
+| Hoodsnatcher | Decapitate 3 enemies with a single Claymore attack |
+| Scattershot | Kill 5 enemies with a single Blunderbuss shot |
+| Abyssal Eviction | Kill an enemy by pushing them into the abyss with Shield Bash |
+| Nephtis Superioris | Obtain all achievements |
 
-## Cleanup order and missables
+## Choose an encounter that matches the condition
 
-The safest cleanup order is **Ambers and side quests → weapon upgrades → combat feats → story bosses**. The game has no difficulty selector, while the chapter route contains eleven chapters and several quest chains. If a quest marker or NPC is no longer where you expected, use the chapter walkthrough and Lantern fast travel before starting a new save.
+For a weapon-specific feat, equip the required item before approaching the target. Check that you can perform the relevant action deliberately and that the surrounding terrain leaves room to recover. An encounter that is convenient for practice is more useful than an unfamiliar named location copied from an unverified route.
 
-For resource-heavy achievements, pair this checklist with the [Catalyst farming guide](/guides/catalyst-farming-guide/) and the [best skills guide](/guides/best-skills-guide/). The [full-game guide hub](/guides/) keeps the retail pages together; the older [Demo guide](/demo/) remains a separate archive and should not be used as proof of retail unlock timing.
+For a condition involving several enemies, distinguish a group from the required result. Several targets on screen do not prove that one attack hit or defeated all of them. Preserve visibility and observe the actual result. Do not manufacture an enemy count, a respawn rule or a guaranteed positioning trick merely because the achievement asks for a particular number.
 
-**Nephtis Superioris** is the Steam achievement for obtaining all achievements. It is the completion milestone for the 39-achievement list.
+For an upgrade or equipment condition, inspect the item's state in the interface. Owning an item and completing its upgrades are separate events. If a purchase is missing a prerequisite, identify that requirement before grinding more currency. Use the [Catalyst and skills decision guide](/guides/best-skills-guide/) to compare the actual obstacle rather than assuming that every missing unlock is a currency problem.
+
+## Keep your own attempt record
+
+Write down the condition you are trying, the item equipped and the outcome you observed. If the platform does not show a progress counter, do not infer an invisible number from the animation. Count your own qualifying attempts provisionally and confirm the actual achievement through the platform notification or achievement list.
+
+For Windhover, the published requirement names pistol kills while Airborne Aiming. The [focused Windhover practice guide](/guides/windhover-achievement-guide/) keeps those checks together. It does not claim that a normal airborne shot always satisfies the named skill condition or that the game exposes a live counter after each kill.
+
+For actions that can be interrupted by another damage source, use a cleaner attempt. A power effect or another ongoing attack can make it unclear which action delivered the result. That is a reason to simplify the setup, not proof that the achievement is broken or that a particular unlisted system exists.
+
+## Story completion and optional exploration
+
+Avoid promising that everything remains recoverable after the finale. A hidden achievement can reveal an encounter or quest you have not reached; its existence alone does not establish the exact trigger, a chapter number or whether the action can still be completed in your save.
+
+Before a major transition, review visible unfinished objectives and nearby unresolved paths. Record the actual obstacle, then compare it with the movement options you have gained. The [progression guide](/guides/walkthrough/) helps organize that review without inventing a complete pickup checklist. Follow any point-of-no-return warning the game displays rather than relying on a blanket assurance from an older guide.
+
+## When an unlock is missing
+
+First confirm that you are checking the correct account, platform and game product. Review the condition and whether your attempt actually met it. If the result remains unclear, preserve the current save and record the build, location, equipment and exact action. Do not delete saves or repeatedly replay a long section solely because a global achievement percentage looks low.
+
+Check official patch notes for a matching, specifically named issue. A fix for one boss achievement does not establish that every missing unlock shares its cause. The [boss and chapter recovery reference](/boss-achievement-and-chapter-recovery/) distinguishes historical fixes from recovery guarantees. If reporting a problem, include the condition and observed result, not credentials or an assumption that every earlier action must have counted.

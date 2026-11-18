@@ -60,7 +60,12 @@ for (const route of ['release-date', 'download']) {
     const scripts = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
     const graph = scripts.flatMap(s => s['@graph'] ?? [s]);
     const article = graph.find(s => s['@type'] === 'Article');
-    assert.equal(article?.dateModified, '2026-11-11');
+    const source = await readFile(new URL(`../src/content/guides/${route}.md`, import.meta.url), 'utf8');
+    const updatedAt = source.match(/^updatedAt:\s*["']?(\d{4}-\d{2}-\d{2})/m)?.[1];
+    assert.ok(updatedAt, 'retail decision page must declare an actual update date');
+    assert.equal(article?.dateModified, updatedAt);
+    const times = [...html.matchAll(/<time\b[^>]*datetime="([^"\s]+)"[^>]*>([^<]+)<\/time>/g)];
+    assert.ok(times.some(([, datetime, visible]) => datetime === updatedAt && visible === updatedAt), 'visible update date must match the schema');
     const faq = graph.find(s => s['@type'] === 'FAQPage');
     assert.ok(faq?.mainEntity?.length >= 3, 'decision pages need genuine FAQ answers');
     for (const item of faq.mainEntity) {
@@ -68,7 +73,7 @@ for (const route of ['release-date', 'download']) {
       assert.ok(html.includes(item.acceptedAnswer.text), 'FAQ answer must be visible');
     }
     const sitemap = await readDistFile('sitemap-0.xml');
-    assert.match(sitemap, new RegExp(`<loc>${EXPECTED_SITE}/${route}/</loc><lastmod>2026-11-11`));
+    assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(EXPECTED_SITE)}/${route}/</loc><lastmod>${updatedAt}`));
   });
 }
 
@@ -84,7 +89,11 @@ test('download separates current SSD requirements from unsupported Demo compatib
 
 test('homepage and archive clearly distinguish released retail from the historical Demo', async () => {
   const home = await readDistFile('index.html');
-  assert.match(home, /Full-game guides/);
+  const homeMain = home.match(/<main[\s\S]*?<\/main>/)?.[0] ?? '';
+  assert.ok(homeMain.includes('href="/guides/"'), 'homepage must expose the retail guide directory');
+  assert.ok(homeMain.includes('href="/demo/"'), 'historical Demo must remain separately discoverable');
+  assert.match(homeMain, /historical Demo archive/);
+  assert.match(homeMain, /released on October 13, 2026/);
   assert.match(home, /Get the full game/);
   assert.match(home, /PlayStation 5/);
   assert.doesNotMatch(home, /the build every page on this|Most pre-launch guides guess/);

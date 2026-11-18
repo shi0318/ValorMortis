@@ -1,80 +1,22 @@
 ---
-// About page — editorial + sourcing (AdSense trust surface).
-import Layout from '../layouts/Layout.astro';
-import Breadcrumb from '../components/Breadcrumb.astro';
+import SitePage from '../layouts/SitePage.astro';
 import { SITE } from '../data/site';
-import { STATUS_META } from '../data/confidence';
-
-const title = 'About — Valor Mortis Guide';
-const description =
-  'Who runs this independent Valor Mortis Demo guide, how we tag every fact with a confidence status, and where our information comes from. Built on verified sources.';
-
-const crumbs = [
-  { name: 'Home', url: '/' },
-  { name: 'About', url: '/about/' },
-];
-
-const statuses = Object.values(STATUS_META);
 ---
 
-<Layout title={title} description={description} pageType="article" breadcrumbs={crumbs}>
-  <article class="container max-w-3xl py-10">
-    <Breadcrumb items={crumbs} />
+<SitePage title="About — Valor Mortis Guide" heading="About this guide" description="Who maintains this independent Valor Mortis guide, what our articles cover, and how to understand our editorial identity and limitations.">
 
-    <h1 class="text-3xl font-black tracking-tight text-parchment md:text-4xl">About this guide</h1>
-    <p class="mt-3 text-lg text-fog">
-      An independent, fan-made guide to the free {SITE.gameName} Demo — built on one rule: every
-      fact carries a source and a confidence status.
-    </p>
-
-    <div class="prose-page mt-8">
-      <h2>What this site is</h2>
-      <p>
-        This is a community resource covering the walkthrough, combat, weapons, powers, and PC
-        settings for {SITE.developer}'s {SITE.gameName} — starting with the free Demo. We are not
-        affiliated with {SITE.developer} or {SITE.publisher}. This is a fan project.
-      </p>
-
-      <h2>How we mark confidence</h2>
-      <p>
-        This is the core of the site. Instead of blending official facts with rumours, every
-        entry carries one of these labels so you always know how reliable it is:
-      </p>
-      <ul>
-        {
-          statuses.map((s) => (
-            <li>
-              <strong class="text-bone">{s.icon} {s.label}</strong> — {s.description}
-            </li>
-          ))
-        }
-      </ul>
-
-      <h2>Where our information comes from</h2>
-      <p>Our sources, in order of authority:</p>
-      <ul>
-        <li>The official <a href={SITE.steamUrl} rel="nofollow noopener noreferrer" target="_blank">Valor Mortis Steam page</a> (App {SITE.steamAppId}) — release date, platform, requirements, and the official description</li>
-        <li>The <a href={SITE.demoUrl} rel="nofollow noopener noreferrer" target="_blank">Valor Mortis Demo page</a> (App {SITE.demoAppId}) — the free playable build and its comfort features</li>
-        <li>{SITE.developer}, developer of Valor Mortis and Ghostrunner, and co-publisher {SITE.publisher}</li>
-        <li>Official screenshots and trailers, cited where relevant</li>
-        <li>Corroborated player reports, used only for clearly-labelled Community inference</li>
-      </ul>
-
-      <h2>Image sources</h2>
-      <p>
-        Screenshots and header art come from the {SITE.gameName} Steam store pages. We use them
-        for fan-site documentation with attribution. Trademarks and game assets belong to their
-        respective owners. To request removal of any content, use our
-        <a href="/contact/">contact page</a>.
-      </p>
-
-      <h2>Our promise on honesty</h2>
-      <p>
-        We do not dress up guesses as facts. Confirmed store details are tagged Official; things
-        we infer from the soulslike genre are labelled as inference; and anything we verify
-        hands-on in the Demo build is tagged Demo-tested with the build version noted. When the
-        the full game released on {SITE.releaseDate}; current retail data lives in the <a href="/guides/" class="text-brass-bright underline">full-game guide hub</a>, while the Demo pages remain a clearly labelled archive.
-      </p>
-    </div>
-  </article>
-</Layout>
+<section><h2>Our purpose and independence</h2>
+<p>{SITE.name} helps players understand the game's campaign, combat, weapons, upgrades and PC setup. Our guides organise related questions so that a player can choose a useful next step, recognise uncertainty and avoid confusing a reported problem with a confirmed feature.</p>
+<p><strong>Unofficial fan guide. Not affiliated with One More Level or Lyrical Games.</strong> The site is not a developer support service, a licensed game database or an official store. Using the game's name identifies the subject of our writing; it does not indicate endorsement.</p></section>
+<section><h2>Who publishes the articles</h2>
+<p>Articles are published under the collective label <strong>{SITE.name} editorial team</strong>. This is the site's editorial identity, not a named game developer, a professional esports organisation or a claim that several independently identified reviewers tested each page. The site operator handles publication and can be contacted through our <a href="/contact/">contact page</a>.</p>
+<p>Automated writing assistance is used to help draft and organise material. That does not turn a draft into a verified result. We do not attach invented personal biographies, playtime totals, hardware configurations or test results to that work. The <a href="/editorial/">editorial policy</a> explains the evidence required for a first-hand test claim and how we handle corrections.</p></section>
+<section><h2>What you can expect from a guide</h2>
+<p>Store and developer material can establish release details, named modes or published requirements. Player discussions can reveal a question worth answering, but a forum report alone does not establish the cause of a bug or a universal solution. Recommendations about practice order or troubleshooting are editorial advice and should state the conditions under which they may help.</p>
+<p>A page's “Last updated” date concerns that page's editorial changes. It does not certify that every sentence was retested on that date. Guide labels describe the kind of editorial content, not official endorsement or personal testing. A source screenshot is not a screenshot from our own play session.</p></section>
+<section><h2>Game images and intellectual property</h2>
+<p>Game screenshots and promotional art illustrate the environments, encounters and systems discussed here. Their use on the site does not transfer ownership or establish a licence for visitors to reuse them. Rights in Valor Mortis, the game, characters, logos and associated imagery remain with the respective owners. Our site text and editorial organisation are separate from those game assets.</p>
+<p>If an image is misidentified or you hold rights in material that should be removed, send the page URL and enough information to identify the material. We review requests through the same contact channel used for corrections; an attribution or fan-site disclaimer is not a substitute for reviewing a legitimate rights concern.</p></section>
+<section><h2>Contact and site policies</h2>
+<p>Send questions or corrections to <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>. Please include the article URL and a specific correction rather than account credentials or a full game save. Read the <a href="/privacy/">privacy policy</a> for how reading the site and contacting us can involve data, and the <a href="/terms/">terms of use</a> for reuse and third-party links.</p></section>
+</SitePage>

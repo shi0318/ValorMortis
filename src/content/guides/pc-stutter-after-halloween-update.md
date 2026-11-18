@@ -8,7 +8,7 @@ demoNotice: false
 preRelease: false
 order: 1
 cover: /images/vm-decaying-boulevard.webp
-updatedAt: 2026-11-01
+updatedAt: "2026-11-17"
 ---
 
 ![Valor Mortis PC Stutter Fixes: A Practical Post-Update Checklist](/images/vm-decaying-boulevard.webp)
@@ -57,4 +57,4 @@ Submit a crash report when the game requests one, and distinguish a crash from a
 
 Stop broad troubleshooting when your next experiment would risk your save or requires an unofficial executable. Preserve your working configuration and the results already collected. The update explicitly aims to improve stuttering, but it does not guarantee every PC problem is solved. The practical goal is a repeatable, playable setup and a clear report for anything that remains. If performance stabilizes, resume normal play before adjusting visual quality upward one step at a time.
 
-Continue with the [Halloween update overview](/valor-mortis-halloween-update-guide/) or the [full-game guide index](/guides/).
+Continue with the [Halloween update overview](/valor-mortis-october-21-hitbox-and-combat-guide/) or the [full-game guide index](/guides/).

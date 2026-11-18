@@ -8,7 +8,7 @@ demoNotice: false
 preRelease: false
 order: 1
 cover: /images/vm-rapier-combat.webp
-updatedAt: 2026-11-01
+updatedAt: "2026-11-17"
 ---
 
 ![Valor Mortis Rapier and Saber Guide: Parry, Reposition, and Critical Attacks](/images/vm-rapier-combat.webp)
@@ -63,4 +63,4 @@ After a few attempts, write a short conclusion: which cue you recognized, which 
 
 When the routine becomes reliable, return to normal progression and apply it to new encounters cautiously. New enemies may require different reads, so carry over the method rather than a rigid button sequence. The Rapier and Saber additions are a reason to explore combat again, but the durable skill is understanding how you earned each opening. Read the attack, choose a defense, reposition with intent, and take the opportunity the live game actually presents.
 
-See the [Halloween update guide](/valor-mortis-halloween-update-guide/) and [boss and chapter recovery checklist](/boss-achievement-and-chapter-recovery/) for related changes.
+See the [Halloween update guide](/valor-mortis-october-21-hitbox-and-combat-guide/) and [boss and chapter recovery checklist](/boss-achievement-and-chapter-recovery/) for related changes.

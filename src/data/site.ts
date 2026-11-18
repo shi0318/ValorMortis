@@ -31,15 +31,11 @@ export const SITE = {
 } as const;
 
 export const NAV = [
-  { label: 'Full-Game Guides', href: '/guides/' },
-  { label: 'Demo Guide', href: '/demo/' },
-  { label: 'Demo Walkthrough', href: '/demo/walkthrough/' },
-  { label: 'Demo Boss', href: '/demo/boss-guide/' },
-  { label: 'Demo Weapons', href: '/demo/weapons-and-abilities/' },
-  { label: 'Characters & Lore', href: '/characters-and-lore/' },
-  { label: 'Demo Settings', href: '/demo/settings-and-known-issues/' },
-  { label: 'Download', href: '/download/' },
-  { label: 'Release Date', href: '/release-date/' },
+  { label: 'Guides', href: '/guides/' },
+  { label: 'Demo archive', href: '/demo/' },
+  { label: 'Get the game', href: '/download/' },
+  { label: 'Platforms', href: '/release-date/' },
+  { label: 'About', href: '/about/' },
 ] as const;
 
 export function isReleased(now: Date = new Date()): boolean {

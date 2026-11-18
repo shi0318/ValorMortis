@@ -10,7 +10,7 @@ preRelease: false
 order: 1
 draft: false
 cover: "/images/vm-pistol-duel.webp"
-updatedAt: "2026-10-28"
+updatedAt: "2026-11-17"
 ---
 
 <figure>
@@ -20,7 +20,7 @@ updatedAt: "2026-10-28"
 
 **Windhover** asks you to kill three enemies with the pistol while using **Airborne Aiming**. The requirement is short, but it combines an unlock, a movement state, a weapon choice, and a kill. A normal pistol kill does not count if William is standing on the ground, and an airborne hit is not enough if the enemy survives.
 
-The cleanest approach is to prepare the skill before attempting the achievement, find a repeatable encounter with room to jump, and make each attempt deliberate. Do not burn ammunition into a boss and hope the game understands what you meant. Use a weaker, predictable enemy, aim while airborne, and confirm the achievement counter after each success.
+The cleanest approach is to prepare the skill before attempting the achievement, find a repeatable encounter with room to jump, and make each attempt deliberate. Do not burn ammunition into a boss and hope the game understands what you meant. Use a weaker, predictable enemy, aim while airborne, and keep your own provisional attempt count and confirm the final unlock in Steam.
 
 ## What the requirement means
 
@@ -34,7 +34,6 @@ Airborne Aiming is a skill, so check the skill tree and unlock it before setting
 2. **Equip the pistol.** Keep it selected before you jump so you are not changing weapons during the short aiming window.
 3. **Check ammunition.** Start with enough pistol rounds for several attempts. A miss should cost time, not force a long return to a Lantern.
 4. **Choose a familiar encounter.** Use an area you can reach safely and where enemies are not already in a boss phase or packed too tightly.
-5. **Bank Catalysts at a Lantern.** Windhover attempts can involve taking damage or dying. Spend your carried Catalysts first so a failed setup does not erase a farming session.
 
 The best attempt is one you can repeat. An ordinary enemy near a known Lantern is usually more useful than a late-game elite with a large health pool. You need a target that can be defeated by one airborne pistol shot or weakened safely before the final airborne shot.
 
@@ -44,7 +43,7 @@ Find a safe edge or open patch of ground near an enemy. Make sure the jump will 
 
 If the target survives, do not keep firing from the ground and count that as progress. Move back to a safe position, weaken the same enemy with a controlled attack, and reserve the finishing pistol shot for the airborne aim. The achievement tracks kills, not just airborne damage, so the final blow is the part to protect.
 
-Repeat the same setup for the next target. After each kill, pause long enough to see whether the achievement progress changes. This prevents a common failure: completing three ordinary pistol kills, discovering that none counted, and then having to repeat the whole challenge without knowing what was wrong.
+Repeat the same setup for the next target and count only kills whose finishing shot you clearly fired during Airborne Aiming. After three qualifying kills, check whether Windhover unlocks. If it does not, review the aiming state and the source of each final blow before repeating the sequence; do not assume the game exposes a live progress counter.
 
 ## Use enemy health to your advantage
 
@@ -60,7 +59,7 @@ Do not assume the pistol needs to be fully upgraded. The known requirement is th
 
 **The pistol hit but did not kill.** The requirement is a kill, not a hit. If an enemy survives, weaken it and save another airborne shot for the finish.
 
-**Another effect delivered the final damage.** Fire, a Transmutation, or a companion combat effect may finish the enemy after the pistol hit. Use a clean target and watch the health bar.
+**Another effect delivered the final damage.** Fire, a Transmutation, or another damage source may finish the enemy after the pistol hit. Use a clean target and watch the health bar.
 
 **The enemy died while William was grounded.** It is easy to land just before the shot. Keep the attempt deliberate and avoid jumping from uneven ground where the timing is difficult to read.
 
@@ -70,7 +69,6 @@ Do not assume the pistol needs to be fully upgraded. The known requirement is th
 
 ## Make the setup safer
 
-Windhover is a combat challenge, but it does not require a risky arena. Start near a Lantern, clear or isolate one enemy, and keep a route back open. If another enemy attacks during the jump, disengage instead of forcing the shot. A missed attempt is cheap; a death with unspent Catalysts can be expensive.
 
 The rapier is useful for controlling an enemy’s health before the finishing shot. The pistol should be ready for the end of the sequence, not used as an opener that leaves you reloading while the target attacks. A parry can also create breathing room against a soldier, but do not assume that a parry automatically puts William in position for Airborne Aiming. Reset the spacing first.
 
@@ -89,7 +87,6 @@ Count three confirmed kills in your own notes while the game tracks the achievem
 - Choose a safe, repeatable enemy near a Lantern.
 - Weaken a durable target if needed, then use the pistol for the final hit.
 - Aim during the airborne skill window and verify the kill.
-- Repeat until Windhover unlocks; bank Catalysts before risky retries.
 
 ## How this differs from the 39-achievement checklist
 
@@ -98,6 +95,6 @@ The full achievement guide lists Windhover among the weapon and movement feats. 
 ## Related guides
 
 - [All 39 Valor Mortis achievements](/guides/achievements-and-trophies/)
-- [Parry before the shot](/guides/parry-before-the-shot/)
+- [Parry before the shot](/rapier-saber-critical-combat-practice/)
 - [Best skills and early upgrades](/guides/best-skills-guide/)
-- [Boss door checklist](/guides/boss-door-checklist/)
+- [General Lothaire fight guide](/how-to-beat-general-lothaire/)

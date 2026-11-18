@@ -8,7 +8,7 @@ demoNotice: false
 preRelease: false
 order: 1
 cover: /images/vm-boss-fight.webp
-updatedAt: 2026-11-01
+updatedAt: "2026-11-17"
 ---
 
 ![Valor Mortis Missing Boss Achievements and Chapter Recovery Guide](/images/vm-boss-fight.webp)

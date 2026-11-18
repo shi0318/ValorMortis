@@ -1,6 +1,6 @@
 ---
-title: "How to Beat General Lothaire in Valor Mortis: First Boss Strategy"
-description: "Beat General Lothaire, the Eagle-Bearer, with a calmer plan: safe Fire openings, firearm weak points, burning arena edges, and when losing in Chapter 1 is fine."
+title: "How to Beat General Lothaire in Valor Mortis: Arena and Attack Openings"
+description: "Keep clear of Lothaire’s burning arena edge, choose a readable attack opening, and separate player-reported Fire tactics from patched combat bugs."
 category: boss
 status: community
 sourceKeys: []
@@ -8,63 +8,58 @@ demoNotice: false
 preRelease: false
 order: 1
 cover: /images/vm-paris-nightmare.webp
-updatedAt: 2026-11-04
+updatedAt: "2026-11-17"
 ---
 
-![How to Beat General Lothaire in Valor Mortis: First Boss Strategy](/images/vm-paris-nightmare.webp)
+![Valor Mortis official artwork showing its war-torn setting](/images/vm-paris-nightmare.webp)
 
-General Lothaire, the Eagle-Bearer, is still the fight new players ask about most. A Steam discussion titled "How Do I Get Passed the First Boss..." was active again on November 4, 2026, and a separate thread about difficulty spikes singles out Lothaire as the early fight where everything felt fine until he appeared. The achievement data backs that up. As of November 4, 2026, Steam's global stats show **Torn Banner** (a Hidden achievement for killing General Lothaire) at **62.9%**. The next boss achievement, for the Iron Marshall, sits at **56.0%**. Not every player missing Torn Banner is stuck on Lothaire, since some have simply not played far, but no other step on the boss ladder loses as many people.
+Against General Lothaire, protect your escape space before adding another attack. Repeatedly retreating toward the burning arena boundary can end an otherwise controlled attempt. Player reports describe a more manageable opening: evade the initial ranged pressure, move sideways from his leap, and use the landing recovery for a short punish. Fire and firearm weak-point shots are options reported by players who have those tools, rather than a required loadout or a guaranteed stagger loop.
 
-This guide focuses on why the fight feels unfair to some players and how to make it repeatable. It does not invent hidden damage values or a perfect frame window. The patterns below come from our [Chapter 1](/guides/chapter-1-walkthrough/) and [Chapter 2](/guides/chapter-2-walkthrough/) walkthroughs and from player reports in the Steam discussions.
+This guide separates those observations from official patch fixes. It does not establish a chapter-skipping route, an item pickup location, or a numerical parry window. Use the equipment and encounter state actually available in your save.
 
-## Decide whether you need to win in Chapter 1
+## Fix the arena problem first
 
-Lothaire appears twice. The first meeting ends **Chapter 1: Revival** on the Battlefield, past the Field Encampment Lantern. You are allowed to lose that encounter. If you do, you wake in **Chapter 2: Regroup** and fight him again beyond the **Quarry** Lantern, after the Valley of Ashes has handed you the **Pistol**. If you win the first time, you collect Catalysts on the spot and skip the rematch.
+The Steam discussion “How Do I Get Passed the First Boss...” begins with a specific complaint: Lothaire walks forward while the player backs into the arena boundary and catches fire. That is a different problem from missing a parry. Adding a longer attack sequence will not create an exit once your retreat has already reached the hazard.
 
-That choice matters more than it looks. In Chapter 1 you have the Saber and the Fire Transmutation, but no firearm. The red growths on his body are firearm weak points, so the rematch gives you a tool the first meeting does not. If the Chapter 1 attempt is frustrating, losing it on purpose is a legitimate route rather than a failure. Torn Banner unlocks the first time you actually win, whichever chapter that happens in.
+Before the next exchange, identify open ground beside you. Move at an angle while keeping Lothaire visible, instead of spending the whole approach moving straight backward. Stop an attack early if continuing would leave your back against the edge. The useful result is room for the next defensive action, even if this attempt deals less damage.
 
-Before the rematch, stop at the **Military Camp** Lantern in Chapter 2 and pick up the **Dominatus** Amber, which heals you on critical attacks. Lothaire is built around posture breaks, so every successful parry chain that ends in a critical attack also becomes healing.
+Players disagree about target lock. Some prefer it disabled for quicker camera checks; the original poster says they were already playing without it. Therefore, disabling lock-on is an option to compare, not the solution by itself. Keep the setting that lets you see both the incoming action and the space you need to leave.
 
-## Phase one: what he does and how to answer
+| What ends the attempt | Try next | What that does not prove |
+| --- | --- | --- |
+| You catch fire while retreating | Shorten the retreat and move toward visible open ground | Every hit was caused by bad timing |
+| You cannot find an attack opening | Observe the ranged opening and leap before committing | The boss must be permanently passive |
+| Your punish empties the power resource | Use a shorter Fire commitment and inspect the remaining meter | Fire always provides an endless stagger loop |
+| You lose sight of another threat | Reset your camera and position before attacking | Every additional enemy can safely be ignored |
 
-The first health bar is the part you should treat as practice. His sword attacks come as delayed two- and three-hit strings. He holds the windup long enough to bait an early press, so wait for the swing instead of reacting to the raise. Parrying those strings is how you break his posture and open a critical attack.
+## Use the reported leap opening conservatively
 
-He also fires cannon volleys from range. Dodge those **sideways**, not backwards, because a backward dodge keeps you on the same line. The jumping slam is the other big tell: dodge as he comes down, not at the moment he leaves the ground.
+One reply describes staying back through the opening shots, dodging sideways as Lothaire lands, then using Fire during the recovery. The player follows a stagger with a short sword punish before moving away. This is a useful sequence to test because each action has an observable trigger; it is not a promise that every approach produces the same response.
 
-One player who described their win in the November thread skipped parrying in phase one entirely. Their routine was to stand back, dodge the opening shots, take one small sidestep as he landed from his jump, and then hit him with Fire until he staggered. They followed with two sword hits and backed off again. Two players also recommend shooting the two weak spots on his body. One player reports that they drop globules that refill Nephtoglobin, which keeps Fire available. Treat that as a player observation and check it against the meter in your own fight.
+Start with the movement portion. Watch the incoming shots and the landing, then check where your dodge leaves you. If you finish close to the burning edge, correct that position before adding Fire. Once the route leaves enough room, try a brief punish and retain an exit rather than copying the reply's entire sequence at once.
 
-## Phase two: mutation, unblockable attacks, and summons
+The same reply says Lothaire may follow the first landing by pursuing and swinging before returning to the ranged-and-leap pattern. Do not stand still waiting for another jump while ignoring the intervening approach. Read the action he actually performs, defend it, and reset toward open ground.
 
-After the first health bar, Lothaire mutates and adds **red-glowing unblockable attacks**. Dodge these. Do not try to parry them. Glowing orbs can send a ground shockwave that you jump over, or chasing spikes that you outrun by moving. He also summons soldiers: melee soldiers who get in your way, and Musketeers who fire once and vanish.
+## Fire and weak points: use the tools you actually have
 
-The player reports diverge here, which is useful in itself. One player who needed around 20 attempts kept their distance in phase two, took shots with the firearm, burned him when safe, and ignored the summoned enemies. Their one fixed rule was to shoot the big hand, which they called the only safe chance to deal damage. Another player found the opposite: phase two attacks were easier to parry once phase one went well. Both approaches can work. Pick one and stay consistent for a few attempts before you judge it.
+Players in the thread recommend firearm shots at visible body weak points. One reports that the resulting drops replenish the resource used for Fire, and describes using a regeneration option as well. Those are individual observations. Watch the resource meter in your own encounter before relying on that replenishment to fund the next cast.
 
-Save your Ferro Flask charges for this phase. Two of the more common achievements on Steam are **Rookie Mistake** (trying to drink with no flasks left, 70.8%) and **In the Nick of Time** (reaching a Lantern below 20% health with no flasks, 59.5%). They show how often players run dry before they reach safety.
+If the firearm or regeneration option is unavailable in your save, do not treat the suggested routine as a progression requirement. You can still practise spacing, recognize the landing recovery, and take a smaller melee opening. This page does not claim where a specific Amber is obtained or that losing a particular encounter grants the missing equipment.
 
-## The burning arena edge and the stalking problem
+Avoid spending the full power resource simply because an early cast connected. Reserve enough attention to defend the next action. A failed second cast can turn a good opening into an unsafe commitment. For choosing purchases around a demonstrated resource limit, use the [Catalyst and skills guide](/guides/best-skills-guide/).
 
-The most specific complaint in the current thread is not about a single attack. The original poster described Lothaire walking toward them without swinging after the opening volley, until they backed into the edge of the arena and caught fire. The arena edge is the danger here, not the boss.
+## Choose a second-phase plan you can read
 
-The replies agree on one fix: know where you are. Retreating in a straight line runs you into the hazard. Moving at an angle, or sideways around him, keeps you in open ground. One player said they always moved right rather than left. Another said to stop circling when he is not attacking, because circling with lock-on drags you toward the wall.
+The replies do not describe a single universally easier second phase. One player finds its attacks easier to parry; another prefers distance, firearm opportunities and Fire while avoiding a complicated close-range exchange. Treat that disagreement as a reason to choose a readable routine, rather than evidence that one player discovered the required method.
 
-Lock-on itself is divisive. Multiple players in the thread advise fighting him with lock-on off, using quick mouse camera control to keep the edge in view and slip to his sides. If you keep catching fire, try the fight with lock-on disabled. The October 21 patch also fixed a bug where Burning could stay on permanently after respawn, so a lingering burn on a current build is worth reporting rather than playing around.
+If close-range exchanges overwhelm you, reduce the length of your punish and re-establish sight of the boss before attacking again. If ranged pressure leaves you repeatedly pinned at the boundary, retreating farther is not solving the problem. Change the angle and reclaim space when the current action allows it.
 
-## Spend Fire, but do not open with it
+When additional enemies or effects occupy the arena, check the immediate threat before casting. A player's successful attempt while ignoring other threats does not establish that ignoring them is safe in every position. The [multi-enemy positioning guide](/multi-enemy-positioning-threat-control/) focuses on keeping attacks and exit space visible.
 
-Fire is the strongest tool you have in Chapter 1, and players lean on it heavily here. The trick is timing. Opening the fight with a cast leaves you short when the real opening appears. Use it after a dodge or a parry, when he is recovering from a slam or a string. Then watch whether the meter can afford another cast.
+## Distinguish encounter pressure from a patched bug
 
-If you have the **Bottomless Well** Amber from Chapter 1 equipped, it restores Nephtoglobin slowly over time. One player in the thread credited a mana-regen tool as the reason their Fire plan worked. For the wider rules on the resource, see the [Transmutations guide](/guides/transmutations-guide/).
+The October 21 update fixed Burning persisting after respawn. It also fixed a state where being hit while crouching could leave the player permanently slowed and unable to jump. Those specific failures should not be accepted as normal costs of learning Lothaire. Confirm your installation is current and report a repeatable recurrence with the platform and trigger.
 
-## Patch changes that affect this fight
+That patch also adjusted many enemy and boss hitboxes. It did not publish a new Lothaire frame chart or guarantee that every apparent miss has the same explanation. If the problem is a missing achievement after a simultaneous player-and-boss death, use the separate [boss recovery checklist](/boss-achievement-and-chapter-recovery/) before repeating the fight.
 
-The October 21, 2026 patch adjusted attack hitboxes for many enemies and bosses so hits line up better with animations. It also fixed a bug that could leave you permanently slowed and unable to jump if you were crouching when hit. If you last fought Lothaire before that patch, your old timing may have been learned against different hitboxes. Our [October combat patch guide](/valor-mortis-october-21-hitbox-and-combat-guide/) covers those changes. The October 27 update added further fixes for boss fights where you and the boss die at the same moment. If Torn Banner never arrived after a trade kill, follow the [boss achievement recovery checklist](/boss-achievement-and-chapter-recovery/).
-
-## A practice plan for your next five attempts
-
-1. **Attempt one:** do not attack. Learn the opening volley, the jump timing, and where the burning edge starts.
-2. **Attempt two:** dodge the volley sideways and punish only the landing of the jump.
-3. **Attempt three:** add Fire after a safe dodge, and shoot the red growths if you have the Pistol.
-4. **Attempt four:** reach phase two with flasks intact and practise dodging the red attacks.
-5. **Attempt five:** play the whole fight with your chosen lock-on setting and the same plan.
-
-If you are still stuck after that, losing the Chapter 1 meeting and taking the Pistol and Dominatus into the Quarry rematch is the cleanest reset. One player in the thread put it simply: the game gets much easier and more fun after this boss. The Iron Marshall waits in Chapter 3. Our [all bosses list](/guides/all-bosses/) and [boss door checklist](/guides/boss-door-checklist/) cover what comes next.
+For the next attempt, choose one clear goal: keep away from the burning boundary, recognize the leap recovery, or retain enough resource to disengage after your punish. Carry a successful opening into the next attempt. You do not need an unsupported chapter route or a damage multiplier to make those decisions more reliable.

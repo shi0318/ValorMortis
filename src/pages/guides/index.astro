@@ -1,74 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import Breadcrumb from '../../components/Breadcrumb.astro';
 import GuideCard from '../../components/GuideCard.astro';
-import { ASSETS } from '../../data/assets';
-
-const title = 'Valor Mortis Full-Game Guides — Achievements, Catalysts and Skills';
-const description =
-  'Retail Valor Mortis guides for achievements, Catalyst farming, skills, weapons, bosses, chapters, and every post-launch system.';
-const crumbs = [
-  { name: 'Home', url: '/' },
-  { name: 'Full-Game Guides', url: '/guides/' },
-];
-const CATEGORY_LABEL: Record<string, string> = {
-  guide: 'Guide',
-  walkthrough: 'Walkthrough',
-  boss: 'Boss Guide',
-  weapons: 'Weapons',
-  skills: 'Skills',
-  settings: 'Settings',
-  secrets: 'Achievements & Secrets',
-  news: 'News',
-};
-const FALLBACK_COVER: Record<string, string> = {
-  guide: ASSETS.spectralPower.src,
-  walkthrough: ASSETS.parisNightmare.src,
-  boss: ASSETS.bossFight.src,
-  weapons: ASSETS.rapierCombat.src,
-  skills: ASSETS.parry.src,
-  settings: ASSETS.decayingBoulevard.src,
-  secrets: ASSETS.bossFight.src,
-  news: ASSETS.hero.src,
-};
-
-const guides = (await getCollection('guides', ({ data }) => !data.draft && data.preRelease === false)).sort(
-  (a, b) => b.data.updatedAt.localeCompare(a.data.updatedAt) || a.id.localeCompare(b.id),
-);
-
-function coverOf(g: (typeof guides)[number]) {
-  return g.data.cover ?? FALLBACK_COVER[g.data.category] ?? ASSETS.hero.src;
-}
+import { getCollection } from 'astro:content';
+const ids = ["release-date", "download", "boss-achievement-and-chapter-recovery", "multi-enemy-positioning-threat-control", "rapier-saber-critical-combat-practice", "pc-stutter-after-halloween-update", "valor-mortis-october-21-hitbox-and-combat-guide", "how-to-beat-general-lothaire", "raphael-and-entity-endgame-boss-guide", "guides/achievements-and-trophies", "guides/windhover-achievement-guide", "guides/best-skills-guide", "guides/walkthrough"];
+const guides = (await getCollection('guides')).filter(g => ids.includes(g.id));
 ---
-
-<Layout title={title} description={description} pageType="collection" breadcrumbs={crumbs}>
-  <div class="container py-10">
-    <Breadcrumb items={crumbs} />
-
-    <header class="mt-6 max-w-3xl">
-      <p class="section-kicker">Retail guide hub</p>
-      <h1 class="section-title">Valor Mortis full-game guides</h1>
-      <p class="mt-3 text-lg text-fog">
-        These pages cover the released PC game. They use retail chapter, boss, skill, weapon, Amber,
-        and achievement data; the separate <a class="text-brass-bright underline" href="/demo/">Demo archive</a>
-        remains available for the June build.
-      </p>
-    </header>
-
-    <section class="mt-10" aria-label="Full-game guides">
-      <ul class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-        {guides.map((g) => (
-          <GuideCard
-            href={`/${g.id}/`}
-            title={g.data.heading ?? g.data.title}
-            description={g.data.description}
-            cover={coverOf(g)}
-            label={CATEGORY_LABEL[g.data.category] ?? g.data.category}
-            status={g.data.status}
-          />
-        ))}
-      </ul>
-    </section>
-  </div>
+<Layout title="Valor Mortis gameplay guides" description="Choose a focused Valor Mortis reference for combat, exploration, installation and historical Demo questions, with clear limits on untested claims." pageType="collection">
+<div class="container py-10"><h1 class="section-title">Valor Mortis gameplay guides</h1><p class="mt-4 text-fog">Choose the question you need to answer. Retail guides describe the released game; the separate Demo reference records historical announcements and app boundaries.</p><h2 id="boss-guides" class="mt-8 section-title">Combat, progression and recovery references</h2><ul class="mt-8 grid gap-5 md:grid-cols-2">{guides.map(g => <li><a class="text-brass-bright underline" href={'/' + g.id + '/'}>{g.data.heading ?? g.data.title}</a><p class="text-fog">{g.data.description}</p></li>)}</ul><p class="mt-8"><a href="/guides/">Retail guides</a> · <a href="/demo/">Demo archive</a> · <a href="/download/">Official installation options</a></p></div>
 </Layout>

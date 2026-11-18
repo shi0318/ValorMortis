@@ -15,22 +15,22 @@ export interface StatusMeta {
 
 export const STATUS_META: Record<ConfidenceStatus, StatusMeta> = {
   'demo-tested': {
-    label: 'Demo-tested',
+    label: 'Demo archive',
     icon: '⚔',
     classes: 'bg-spectral/15 text-spectral border-spectral/40',
-    description: 'Verified hands-on in the Valor Mortis Demo build. Version and test date noted.',
+    description: 'Historical Demo material; not a claim of personal testing.',
   },
   official: {
-    label: 'Official',
+    label: 'Guide',
     icon: '✦',
     classes: 'bg-brass/15 text-brass border-brass/40',
-    description: 'Confirmed by One More Level or Lyrical Games via Steam, patch notes, or official channels.',
+    description: 'Editorial guide using documented information; not official endorsement.',
   },
   community: {
     label: 'Community',
     icon: '◈',
     classes: 'bg-blood/15 text-blood-bright border-blood/40',
-    description: 'Cross-checked from multiple player reports (Steam, Reddit, Discord). Corroborated, not first-party.',
+    description: 'Player observations with limitations; not a controlled test.',
   },
   unconfirmed: {
     label: 'Unconfirmed',

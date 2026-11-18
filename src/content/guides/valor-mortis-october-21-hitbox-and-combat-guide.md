@@ -1,13 +1,13 @@
 ---
-title: "Valor Mortis October Combat Patch: Hitboxes, Damage Windows, and Readable Attacks"
-heading: "Retest Valor Mortis Enemy Attacks After the October Combat Patch"
+title: "Valor Mortis Combat Updates: October Fixes and What to Recheck"
+heading: "Combat update reference: October 21 and Halloween changes"
 description: "A hands-on method for the October Valor Mortis patch: enemy hitboxes, damage windows, Risen Duelist, Eternal Guardsman, Howler, and clearer windups."
 category: guide
 status: official
 sourceKeys: []
 preRelease: false
 order: 2
-updatedAt: "2026-10-30"
+updatedAt: "2026-11-17"
 cover: "/images/vm-rapier-combat.webp"
 ---
 
@@ -23,12 +23,6 @@ The October 21 **Valor Mortis** combat patch adjusted enemy and boss hitboxes to
 The notes describe three separate combat goals. First, several enemy attack hitboxes were adjusted to better match the attack animations, addressing cases where a player felt hit despite the visible swing appearing to miss. Second, damage windows were tuned for a number of enemy attacks, including the Risen Duelist, Eternal Guardsman, and Howler. Third, the windups for the Risen Sapeur’s push attack and Risen Lancer’s unblockable red attack were made more readable.
 
 These statements do not give frame counts, exact collision dimensions, or a universal parry window. They also do not say that every enemy attack now aligns perfectly with every camera angle. Use the notes as a test map: look at the listed enemies and attack types first, then compare your experience after confirming the update is installed. If a different enemy still seems inconsistent, describe it separately rather than extending the patch claim to the whole roster.
-
-## Establish a repeatable baseline
-
-Choose one encounter you can reach reliably and use the same weapon, armor, upgrades, and difficulty each time. Before approaching, decide which attack you are testing: a sweeping strike, a charge, a thrust, or a named special. Keep enough distance to see the full animation. If you change your equipment or add a temporary effect halfway through, note the change because it may affect the timing or result.
-
-Record four details: the enemy, the attack animation, your position relative to the enemy, and the defensive action you used. If possible, note whether you dodged toward, away from, or across the attack. This matters because a hitbox can intersect your character during one direction of movement while missing in another. A short video is more useful than a conclusion such as “the boss still cheats,” especially if the patch changed only a specific attack window.
 
 ## Read the Risen Duelist and Eternal Guardsman separately
 
@@ -60,14 +54,21 @@ A hit that looks visually wrong may come from the attack collision, camera persp
 
 When an attack still connects unexpectedly, save the encounter name, enemy move, platform, game version, and direction of movement. Add whether the hit caused damage, stagger, or a status effect. This vocabulary is more precise than saying an attack “ignored” your dodge. The patch goal was animation-to-hitbox alignment and more useful damage timing; a report that identifies a repeatable mismatch gives the team and other players actionable evidence.
 
-## Build a safer practice loop
+## Halloween update: new critical attacks and cosmetic skins
 
-Use a low-cost route to reach the enemy, test one attack, then disengage or return to a checkpoint if the game allows it. Spend healing only when necessary; a test should not become a full boss attempt by accident. After you identify one attack, practice a response until you can reproduce it twice. Then change one factor—distance, dodge direction, or defensive action—and compare. This helps you learn the encounter instead of memorizing a single animation clip.
+The October 27 Halloween announcement added weapon skins for melee and ranged weapons and new critical attacks for the Rapier and Saber. The developer said players receive the content after installing the update. This is an update-content statement, not a claim that a skin raises damage or that a new animation guarantees a longer safe follow-up. Inspect the installed build before comparing a clip recorded earlier in October.
 
-For a boss, keep the goal narrow. You may be testing one adjusted damage window, not trying to clear the whole fight. If another enemy joins or the boss changes phase, stop treating the attempt as a controlled test and label it as a different state. Phase changes can alter attack sequences and invalidate a timing note from the opening. Record the phase and health state when a result occurs so readers can recreate it.
+Use the [Rapier and Saber practice guide](/rapier-saber-critical-combat-practice/) for commitment during an actual opening. Separate a new presentation from an enemy's remaining ability to act. The announcement does not publish animation frame counts or a numerical damage comparison, so this reference supplies neither.
 
-## Quick post-patch checklist
+The same update included several named boss bug fixes: Stasis persisting on the Orphan, Raphael stopping his attacks after a precisely timed Rapier-heavy stagger, Entity shield positioning and a Bride teleport interaction. These are specific historical symptoms. A boss standing still in an old clip may reflect a fixed issue rather than a strategy you can reproduce. Do not base your practice on deliberately forcing that behavior.
 
-Install the current patch; choose one listed enemy; identify one specific attack; repeat from the same range and terrain; keep equipment and difficulty unchanged; test one defense at a time; note camera visibility and movement direction; and preserve both successful and failed attempts. For the Risen Lancer, respect the red unblockable warning. For the Risen Sapeur, watch the push windup. For the Duelist, Eternal Guardsman, and Howler, focus on the named damage windows instead of generalizing to every attack in the game.
+## Choose the reference that matches your symptom
 
-The patch gives players a better basis for reading these encounters, but exact values remain a hands-on question. A strong guide records what the animation telegraphs, what response worked, and what still needs testing. That lets you adapt if a later build changes timing again and keeps a single surprising collision from turning into a false claim about all Valor Mortis combat.
+| Symptom after an update | Next reference | Limit of the patch claim |
+| --- | --- | --- |
+| A critical attack feels different | [Weapon practice](/rapier-saber-critical-combat-practice/) | No universal safety or frame-count guarantee |
+| PC frame-time hitching | [PC diagnosis](/pc-stutter-after-halloween-update/) | Reported improvement is not our benchmark |
+| Missing boss achievement after simultaneous death | [Boss and chapter recovery](/boss-achievement-and-chapter-recovery/) | The stated Continue recovery concerns a particular edge case |
+| A chapter interaction will not resume | [Progression and recovery](/boss-achievement-and-chapter-recovery/) | A fixed save sequence does not promise every old save is repaired |
+
+The developer also mentioned shader-cache recreation for PC stuttering and a Continue-menu recovery for some simultaneous-boss-death achievements. Those recovery instructions need context and save-preservation limits; the linked references keep those details separate from combat learning. This reference does not turn them into routine steps every player should perform.

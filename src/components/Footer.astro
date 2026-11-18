@@ -19,12 +19,12 @@ const year = new Date().getFullYear();
           </div>
         </div>
         <p class="mt-4 max-w-md text-sm leading-relaxed text-fog">
-          An independent, source-tracked field guide to the free {SITE.gameName} Demo — every fact tagged with where it came from.
+          Independent guidance for the released {SITE.gameName}, with clearly separated historical Demo material.
         </p>
       </div>
 
       <nav aria-label="Guide links">
-        <p class="text-xs font-black uppercase text-bone">Demo guides</p>
+        <p class="text-xs font-black uppercase text-bone">Explore</p>
         <ul class="mt-3 space-y-2">
           {NAV.map((item) => (
             <li>
@@ -50,12 +50,13 @@ const year = new Date().getFullYear();
 
     <div class="mt-10 border-t border-white/10 pt-6 text-xs leading-relaxed text-smoke">
       <p>
-        This is an independent fan-made guide site. Not affiliated with or endorsed by {SITE.developer} or {SITE.publisher}. Valor Mortis, screenshots, names, and trademarks belong to their respective owners.
+        Unofficial fan guide. Not affiliated with One More Level or Lyrical Games. Valor Mortis, screenshots, names, and trademarks belong to their respective owners.
       </p>
       <p class="mt-2">
-        Facts are checked against official Steam sources on {SITE.lastVerified}. Contact:
+        Corrections and enquiries:
         <a href={`mailto:${SITE.contactEmail}`} class="text-brass-bright underline underline-offset-2">{SITE.contactEmail}</a>.
       </p>
+      <nav aria-label="Site policies" class="mt-4 flex flex-wrap gap-4">{["about", "contact", "privacy", "terms", "editorial"].map(path => <a href={`/${path}/`} class="underline">{path === "privacy" ? "Privacy policy" : path === "editorial" ? "Editorial policy" : path === "terms" ? "Terms of use" : path}</a>)}</nav>
       <p class="mt-2">&copy; {year} {SITE.name}.</p>
     </div>
   </div>

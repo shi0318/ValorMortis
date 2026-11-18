@@ -1,13 +1,15 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const SITE = 'https://valor-mortis.wiki';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
+const redirects = JSON.parse(readFileSync(join(ROOT, 'src/data/content-redirects.json'), 'utf8'));
+writeFileSync(join(ROOT, 'public/_redirects'), Object.entries(redirects).map(([a,b]) => `${a} ${b} 301`).join('\n') + '\n');
 function frontmatterDate(file) {
   const source = readFileSync(join(ROOT, file), 'utf8');
   const match = source.match(/^updatedAt:\s*["']?(\d{4}-\d{2}-\d{2})/m);
@@ -17,7 +19,7 @@ function frontmatterDate(file) {
 // Only guide frontmatter supplies a sitemap date; static routes omit it.
 function lastmodFor(url) {
   const pathname = new URL(url).pathname;
-  const changedStaticPages = { '/': '2026-11-11', '/guides/': '2026-11-11', '/demo/': '2026-11-11' };
+  const changedStaticPages = { '/': '2026-11-17', '/guides/': '2026-11-17', '/demo/': '2026-11-17' };
   if (changedStaticPages[pathname]) return changedStaticPages[pathname];
   const slug = pathname.replace(/^\/+|\/+$/g, ''); // 去首尾斜杠
   const candidates = [`src/content/guides/${slug}.md`, `src/content/guides/${slug}.mdx`];

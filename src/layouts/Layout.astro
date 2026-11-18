@@ -14,7 +14,7 @@ interface Crumb {
 interface Props {
   title: string;
   description: string;
-  pageType?: 'home' | 'article' | 'collection';
+  pageType?: 'home' | 'article' | 'collection' | 'page';
   canonical?: string;
   image?: string;
   breadcrumbs?: Crumb[];
@@ -41,12 +41,14 @@ const path = Astro.url.pathname;
 const isErrorPage = path.includes('404');
 const canonicalUrl = isErrorPage || noindex ? undefined : (canonical ?? new URL(path, SITE.url).href);
 const imageUrl = new URL(image, SITE.url).href;
-const GA_ID = 'G-STS9CDRXE6';
+// Inactive configuration retained for a future consent-gated restoration.
+const pausedGA4 = 'G-STS9CDRXE6';
 
 const organization = {
   '@type': 'Organization',
   '@id': `${SITE.url}/#organization`,
-  name: SITE.name,
+  name: SITE.name + ' editorial team',
+  description: 'Unofficial fan guide. Not affiliated with One More Level or Lyrical Games.',
   url: `${SITE.url}/`,
   logo: {
     '@type': 'ImageObject',
@@ -84,7 +86,7 @@ if (pageType === 'home') {
   });
 } else if (canonicalUrl) {
   graph.push({
-    '@type': pageType === 'collection' ? 'CollectionPage' : 'Article',
+    '@type': pageType === 'collection' ? 'CollectionPage' : pageType === 'page' ? 'WebPage' : 'Article',
     '@id': `${canonicalUrl}#${pageType}`,
     name: title,
     headline: title,
@@ -155,22 +157,8 @@ const schema = { '@context': 'https://schema.org', '@graph': graph };
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="application-name" content={SITE.name} />
     <meta name="theme-color" content="#0b0d0f" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
     <script type="application/ld+json" set:html={JSON.stringify(schema)} is:inline />
 
-    {
-      GA_ID && (
-        <>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
-          <script is:inline set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`} />
-        </>
-      )
-    }
   </head>
   <body class="flex min-h-screen flex-col">
     <AmbientParticles />
