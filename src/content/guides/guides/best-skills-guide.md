@@ -81,6 +81,8 @@ Ask whether the improvement changed the specific failure. Did you retain an acti
 
 If nothing improved, revisit the diagnosis. Do not buy several unrelated nodes merely to justify the first purchase. The limiting factor may be camera control, spacing, an unfamiliar move or a different requirement. Keep upgrade decisions connected to the encounter rather than to a generic claim that more grinding always fixes progression.
 
+If you are saving Catalysts for the next level, compare the [November 23 consumable prices](/valor-mortis-consumable-prices-vials-grenades/) before spending your remaining balance on vials or grenades.
+
 ## Preserve the difference between Demo and retail
 
 An old Demo menu, resource balance or feature list is historical evidence about that app. It does not establish the cost or availability of a current retail skill. The [Demo archive](/demo/walkthrough/) explains the app boundary, while the [download guide](/download/) distinguishes installation and save-transfer questions.
