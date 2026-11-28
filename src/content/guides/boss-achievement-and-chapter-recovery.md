@@ -58,3 +58,5 @@ The October 21 announcement says the support team can provide replacement saves 
 Keep achievement recovery and save replacement as separate decisions. Pressing Continue is a targeted first step for the documented missing-boss-reward case; a replacement save is a later option for a persistent campaign block. Neither requires trusting an unofficial save editor or disabling platform protections. Once a fix works, verify the next objective and one ordinary reload before resuming a long session. That final check makes sure your recovered progress is actually persistent, rather than only appearing correct until the next launch.
 
 Read the [October combat patch guide](/valor-mortis-october-21-hitbox-and-combat-guide/) and [full-game guides](/guides/) for related help.
+
+For the November update’s named Sphinx fight and missing Louis materials, see the [Sphinx and Louis troubleshooting guide](/sphinx-stasis-louis-materials/).
